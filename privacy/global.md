@@ -21,7 +21,7 @@
     <li><a href='#8'>Contact us</a></li>
   </ol>
   <p>
-    Please also review, if applicable, your <a href="https://stripe.com/terms">Terms of Service</a> agreement with Stripe, which shall govern in the event of any inconsistency with this Privacy Policy.
+    Please also review, if applicable, your <a href="https://stripe.com/legal">Terms of Service</a> agreement with Stripe, which shall govern in the event of any inconsistency with this Privacy Policy.
   </p>
   <h2 id="1">1. What does this Privacy Policy apply to?</h2>
   <p>

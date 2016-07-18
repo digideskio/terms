@@ -1,4 +1,4 @@
-<header id="prohibited_businesses">
+<header id="prohibited-businesses">
 # Prohibited Businesses — Australia
 Last Updated: May 26, 2014. Previous versions and diffs are <a href="https://github.com/stripe/terms">available here</a>.
 </header>

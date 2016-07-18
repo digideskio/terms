@@ -1,10 +1,12 @@
+<section id="details">
+
 <header id="tos">
-# Stripe Checkout User Terms of Service &mdash; {{country_name}}
+# Stripe Checkout User Services Agreement &mdash; {{country_name}}
 Last Updated: December 15, 2015. Previous versions and diffs are [available here](https://github.com/stripe/terms).
 </header>
 
-<section>
-These Stripe Checkout User Terms of Service are a legal agreement between Stripe Payments Europe, Ltd. (“Stripe,” “we” or “us”) and you, the user of the Stripe Checkout service (“you”).  By using the Stripe Checkout service, you agree to be bound by these terms and conditions.
+<article>
+This Stripe Checkout User Services Agreement is a legal agreement between Stripe Payments Europe, Ltd. (“Stripe,” “we” or “us”) and you, the user of the Stripe Checkout service (“you”).  By using the Stripe Checkout service, you agree to be bound by these terms and conditions.
 
 ## 1. General
 
@@ -50,7 +52,7 @@ Headings are included for convenience only, and shall not be considered in inter
 
 ## 9. Notice
 
-Notices and other communications to you may be made by mail, email, postings on the Stripe Website or other reasonable means. We may also provide notices of changes to the Terms of Service or other matters by displaying links to notices on the Stripe Website. Notice to Stripe may be made to Stripe, Inc., 3180 18th Street, San Francisco CA 94105.
+Notices and other communications to you may be made by mail, email, postings on the Stripe Website or other reasonable means. We may also provide notices of changes to the Services Agreement or other matters by displaying links to notices on the Stripe Website. Notice to Stripe may be made to Stripe, Inc., 3180 18th Street, San Francisco CA 94105.
 
 ## 10. Modification of Terms of Service
 
@@ -72,4 +74,5 @@ Upon termination of your use of Stripe Checkout or termination of these Terms of
 
 Stripe failure to exercise or enforce any right or provision of the Terms of Service will not be considered a waiver of that right or provision. If any provision of these Terms of Service shall be adjudged by any court of competent jurisdiction to be unenforceable or invalid, that provision shall be limited or eliminated to the minimum extent necessary so that these Terms of Service shall otherwise remain in full force and effect and remain enforceable between the parties. Headings are for reference purposes only and in no way define, limit, construe or describe the scope or extent of such section. these Terms of Service, including Stripe's policies governing Stripe Checkout referenced herein, constitutes the entire agreement between you and Stripe with respect to the use of Stripe Checkout. These Terms of Service is not intended and shall not be construed to create any rights or remedies in any parties other than you and  Stripe which each shall be a third party beneficiary of these Terms of Service, and no other person will have the ability to assert any rights as a third party beneficiary under these Terms of Service.
 
+</article>
 </section>

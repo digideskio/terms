@@ -1,64 +1,66 @@
-<header id="br_tos">
-# Terms of Service &mdash; Brazil
-Last Updated: May 10, 2016. Previous versions and diffs are [available here](https://github.com/stripe/terms).
+<section id="details">
+
+<header id="br_tos ">
+# Services Agreement &mdash; Brazil
+Last Updated: May 10, 2016. Previous versions and diffs are [available here](https://github.com/stripe/terms). Para sua conveniência, incluímos a [tradução em Português](#br_tos_port) abaixo dos Termos de Uso.
 </header>
 
-<section>
+<article>
 
 These Terms and Conditions constitute a legal agreement (“Agreement” or “Merchant Agreement”) between and among the sole proprietor or business entity or business organization listed as the “Merchant” on the Service registration page (sometimes referred to as “you,” “your” or “user”), Stripe Brasil Participações Ltda. (“Stripe”, “we”, “our” or “us”), as agent of Elavon, and Elavon do Brasil Soluções de Pagamento S.A. (“Elavon”), as acquirer. You must read, understand and accept all conditions set forth in this Agreement and other policies incorporated herein by reference before registering as user of the Service (as defined below).
 
-##<a id="section_a"></a> Section A: The Stripe Service
+#<a id="section_a"></a> Section A: The Stripe Service
 
-### 1. Object
+## 1. Object
 
 The object of this Agreement is the rendering of payment platform technology and processing services by Stripe (“Service” or “Stripe Service”) to you. Our Service helps you accept and process credit card, debit card, other types of card payments (collectively “cards” or “Cards”, each a “card” or “Card”) and other payment solutions from your customers (each, a “customer” or a “Cardholder”) in exchange for your products and services. Stripe is not a payment arranger or a payment institution and Stripe does not manage payment accounts, issue electronic currency or acts as an acquirer as defined by Law No. 12.865, dated October 9, 2013 and other applicable rules issued by the National Monetary Council and/or the Brazilian Central Bank. You hereby acknowledge that Stripe does not provide any kind of acquiring services, which will be performed by Elavon under this Agreement and applicable laws and regulations. In addition, Stripe and Elavon do not assume any liability for the products or services purchased using our Service. You will be required to register for a service account to use Stripe (see Section B(1) for further details). This “Stripe account” allows you to review card transactions that are in process of settling from a Card Network (as defined below) and us to your specified settlement bank account.
 
-### 2. Our Software
+## 2. Our Software
 
 We provide the Stripe application programming interfaces (collectively, “API”) and other software to enable you to use the Service. We reserve the right to require you to install or update any and all software to continue using the Service. Our Service also includes software to help you manage recurring and subscription billing charges for your products and services. It is your responsibility to obtain your customers’ consent, when billing on a recurring basis, in compliance with applicable legal requirements and, where applicable, rules issued by the applicable credit card networks (“Card Network Rules”, see Section A(14) for further details), and rules issued by Elavon.
 
-### 3. Authorization for Handling of Funds
+##3. Authorization for Handling of Funds
 
 By accepting this Agreement, you authorize us to hold, receive, and disburse funds on your behalf when such funds from your card transactions settle from the Card Networks. You acknowledge that the funds referred to above will be held in an account held by Stripe with Banco Santander (Brasil) S.A. (”Designated Bank”). You further authorize Stripe to instruct the Designated Bank in the way your card transaction settlement funds should be disbursed to you (such as by Transferência Eletrônica Disponível - TED or Documento de Ordem de Crédito – DOC) and the timing of such disbursements. You also agree that Stripe may hold settlement funds in a deposit account at the Designated Bank on your behalf pending disbursement of the funds to you in accordance with the terms of this Agreement. You agree you are not entitled (i) to use the compensation associated with the settlement funds held in the deposit account at the Designated Bank to purchase any product or service or transfer these settlement funds to fulfill any other given obligation that does not necessarily relate to the purchase of product or service; or (ii) to any interest or other compensation associated with the settlement funds held in the deposit account at the Designated Bank pending settlement to the bank settlement account indicated by you when registering for the use of Stripe, that you have no right to direct that deposit account, that you have no legal interest in those funds or that account and that you may not assign any interest in those funds or the deposit account at the Designated Bank. From time to time, we may make available to you information in the Stripe Service regarding anticipated settlement amounts that have been received by us on your behalf from the Card Networks and are being held pending settlement. This settlement information does not constitute a deposit or other obligation of Stripe to you. This settlement information reflected in the Stripe management dashboard is for reporting and informational purposes only, and you are not entitled to, and have no ownership or other rights in settlement funds, until such funds are credited to your specified bank settlement account. Your authorizations set forth herein will remain in full force and effect until your Stripe account is closed or terminated as provided in [Section B](#section_b).  below.
 
-### 4. Payment Methods
+##4. Payment Methods
 
 Stripe’s card processing service supports any Brazilian-issued card and most international cards with a Card Network logo including credit, debit or other payment instruments. Stripe will only process card transactions that have been authorized by the applicable Card Network or card issuer. You are solely responsible for verifying the identity of users and the eligibility of each presented payment card used to purchase your products and services. Stripe and Elavon do not guarantee or assume any liability for transactions authorized and completed which may later be reversed or charged back (see Chargebacks below). You are solely responsible for all reversed or charged back transactions, regardless of the reason for, or timing of, the reversal or chargeback. Stripe may add or remove one or more types of cards as a supported payment card at any time without prior notice to you.
 
-### 5. Customer Service
+##5. Customer Service
 
 Stripe will provide you with customer service to help resolve any issues relating to your use of Stripe, your card payment processing and use of our software, and the distribution of funds to your specified bank settlement account. You, and you alone, are responsible for providing service to your customers for any and all issues related to your products and services, including but not limited to issues arising from the processing of customers’ cards through the Service.
 
-### 6. Taxes
+##6. Taxes
 
 The taxes of any nature related to the transactions provided in this Agreement shall be paid by the party to whom the law ascribes the responsibility.
 
-### 7. Security
+##7. Security
 
 Stripe is responsible for protecting the security of Card Data in our possession and will maintain commercially reasonable administrative, technical and physical procedures to protect all the Card Data and personal information regarding you and your customers that is stored in our servers from unauthorized access and accidental loss or modification. However, we cannot guarantee that unauthorized third parties will never be able to defeat those measures or use such personal information for improper purposes. You acknowledge that you provide this personal information regarding you and your customers at your own risk.
 You acknowledge and agree that we may, at our sole discretion and at any time, make changes to such administrative, technical and physical procedures in order to improve our security.
 
-### 8. Data Security
+##8. Data Security
 
 You are fully responsible for the security of data on your website or otherwise in your possession. You agree to comply with all applicable municipal, state and federal laws and rules in connection with your collection, use, retention, security and dissemination of any personal, financial, Card, or transaction information (defined as “Data”) on your website. You agree that at all times you shall be compliant with the Payment Card Industry Data Security Standards (PCI-DSS) and the Payment Application Data Security Standards (PA-DSS), as applicable. The steps you will need to take to comply with PCI-DSS and PA-DSS when using Stripe will vary based on your implementation. For more information about implementing Stripe, please refer to our Documentation. If we believe it is necessary based on your implementation and request it of you, you will promptly provide us with documentation evidencing your compliance with PCI-DSS and/or PA-DSS. If your implementation involves storage or transmission of Card Data you also agree that you will use only PCI compliant service providers in connection with such storage or transmission. In any event, you must not store CVV2 data at any time. Information on the PCI-DSS can be found on the [PCI Council’s website](https://www.pcisecuritystandards.org). It is your responsibility to comply with these standards.
 You shall also comply with the data security requirements of the Card Networks, Elavon and Stripe.
 
 Your data security obligations under this Section remain valid even after this Agreement is terminated for any reason. Non-compliance with your data security obligations, including through the acts of your officers, employees, agents and subcontractors shall render you liable for any resulting losses, penalties, fines, damages or other remedies incurred by or imposed on Stripe or Elavon.
 
-### 9. Audit Right
+##9. Audit Right
 
 If Stripe and Elavon together believe that a security breach or compromise of data has occurred, Stripe and Elavon together may require you to have a third party auditor that is approved by Stripe and Elavon to conduct a security audit of your systems and facilities and issue a report to be provided to Stripe, the Designated Bank, Elavon and the Card Networks.
 
 If you suspect, have reason to suspect or become aware that any breach or compromise of data has occurred, you must notify Stripe and Elavon immediately.
 
-### 10. Privacy
+##10. Privacy
 
 Your privacy and the protection of your data are very important to us. You acknowledge that you have received, read in full and agree with the terms of our Privacy Policy linked to and incorporated into this Agreement by reference, which contains your consent to our collection, use, retention and disclosure of personal information as well as other matters set forth therein and which explains how and for what purposes we collect, use, retain, disclose and safeguard the information you provide to us. Stripe and Elavon shall maintain the confidentiality of your data, except when disclosure, including to the competent authorities, the Ministry of Finance, the Brazilian Central Bank and the Federal or Local Tax Authorities, is required in order to comply with law, and in which case Stripe and Elavon may disclose all information requested regarding you and/or your data.
 You also acknowledge that Stripe and/or Elavon are required to report your business name, the name of your principals and principals information to be checked with the Restricted listings required by Card Networks and/or the Brazilian Government, if applicable. You specifically consent to the fulfillment of the obligations related to the listing by us or Elavon and to the listing itself and you waive and hold harmless us and Elavon from all claims and liabilities you may have as a result of such reporting.
 
 You further acknowledge that each of Stripe, Elavon, the Card Issuers and the Card Networks may share your registration information with each other.
 
-### 11. Privacy of Others
+##11. Privacy of Others
 
 You represent to Stripe that you are in compliance with all applicable privacy laws, you have obtained all necessary rights and consents under applicable law to disclose to Stripe, or allow Stripe to collect, use, retain and disclose any Cardholder Data that you provide to us or authorize us to collect, including information that we may collect directly from your end users via cookies or other means, and that Stripe will not be in breach of any such laws by collecting, receiving, using and disclosing such information in connection with the Service. As between you and Stripe, you are solely responsible for disclosing to your customers that the company processing credit card transactions will have access to and store Data from such costumers for the sole purpose of processing payments. Stripe will provide some or all of the Service from systems located within the United States or other countries outside of Brazil. As such, it is your obligation to disclose to your customers that Cardholder Data may be transferred, processed and stored outside of Brazil and, as set forth in our Privacy Policy, may be subject to disclosure as required by applicable law.
 If you receive information about others, including Cardholders and their transactions, Card Data and Cardholder Data, through the use of the Service, you must keep all such information confidential and secret and may only use it in connection with the Service and under the terms of this Agreement. You may not disclose or distribute any such information to a third party or use any such information for marketing purposes unless you receive the express consent of the user to do so. You may not disclose card numbers to any third party, other than in connection with processing a card transaction requested by your customer under the Service, or if required by law.
@@ -67,11 +69,11 @@ In the event of any unauthorized disclosure of confidential information, includi
 
 Elavon may report to the Council of Financial Activities Control (COAF - Conselho de Controle de Atividades Financeiras) transactions which fall within the provisions of Law No. 9.613/98 and other money laundering rules, including its internal rules and policies.
 
-### 12. Restricted Use
+##12. Restricted Use
 You are required to obey all laws, rules, and regulations applicable to your use of the Service. In addition to any other obligations, requirements or restrictions set forth in this Agreement, you shall not: (a) utilize the credit available on any Card to provide cash advances to Cardholders; (b) submit any card transaction for processing that does not arise from your sale of goods or service to your customer; (c) act as a payment intermediary or aggregator or otherwise resell our services on behalf of any third party; (d) send what you believe to be potentially fraudulent authorizations or a fraudulent card transaction; or (e) use the Service in a manner that one or more of the Card Networks or Elavon reasonably believes to be an abuse of the Card Network or a violation of Network Rules (as defined below).
 You also agree not to, nor to permit any third party to, do any of the following: (f) access or attempt to access Stripe systems, programs or data that are not made available for public use; (g) copy, reproduce, republish, upload, post, transmit, resell or distribute in any way material from Stripe; (h) permit any third party to use and benefit from the Service via a rental, lease, timesharing, service bureau or other arrangement; (i) transfer any rights granted to you under this Agreement; (j) work around any of the technical limitations of the Service, use any tool to enable features or functionalities that are otherwise disabled in the Service, or decompile, disassemble or otherwise reverse engineer the Service, except to the extent that such restriction is expressly prohibited by law; (k) perform or attempt to perform any actions that would interfere with the proper working of the Service, prevent access to or use of the Service by our other users, or impose an unreasonable or disproportionately large load on our infrastructure; or (l) otherwise use the Service except as expressly allowed under this Agreement.
 
-### 13. Suspicion of Unauthorized or Illegal Use
+##13. Suspicion of Unauthorized or Illegal Use
 
 Stripe and Elavon reserve the right to not authorize or settle any transaction you submit that Stripe and/or Elavon believes is in violation of this Agreement, any other Stripe agreement, or exposes you, other Stripe users, Elavon or Stripe to harm, including but not limited to fraud or other criminal acts. Stripe and Elavon reserve the right to share information with law enforcement about you, your transactions, or your use of the Service if Stripe and Elavon reasonably suspect that your Stripe account has been used for an unauthorized, illegal, or criminal purpose.
 You agree that Stripe and/or Elavon may seek to identify and prevent the practice of cards being used for unauthorized, illegal or criminal purposes and you undertake to cooperate with Stripe and Elavon by providing any information that Stripe or Elavon requests in this regard, failing which you will be liable for any resulting losses, penalties, fines, damages or other remedies incurred by or imposed on Stripe or Elavon, and the Agreement may be terminated by Stripe or Elavon.
@@ -80,20 +82,20 @@ If you undertake fraudulent transactions, this Agreement may be immediately term
 
 You shall guide and monitor your officers, employees, agents and subcontractors in the detection and prevention of fraudulent transactions and shall be responsible for all acts performed by them. In particular, you are responsible for all acts of your officers, employees, agents and subcontractors which involve fraudulent, unauthorized, illegal, or criminal use of the Service or Elavon’s system.
 
-### 14. Card Network Rules
+##14. Card Network Rules
 
 The Card Networks have established guidelines, bylaws, rules, and/or regulations (“Card Network Rules”). You are required to comply with all Card Network Rules that are applicable to merchants. You can review portions of the Card Network rules on the applicable Card Networks’ websites. The Card Networks reserve the right to amend the Card Network Rules. Stripe and Elavon reserve the right to amend the Agreement at any time with notice to you as necessary to comply with Card Network Rules or otherwise address changes in the Service.
 
-### 15. Disclosures and Notices
+##15. Disclosures and Notices
 
 You agree that Stripe can provide disclosures and notices regarding the Service to you by posting such disclosures and notices on our website, emailing them to the email address listed in your Stripe account, or mailing them to the address listed in your Stripe account. You also agree that electronic disclosures and notices have the same meaning and effect as if we had provided you with a paper copy. Such disclosures and notices shall be considered to be received by you within 24 hours of the time it is posted to our website or emailed to you unless we receive notice that the email was not delivered. Stripe is not responsible for any false emails sent by third parties without direct relation with Stripe and always recommends the verification of any information directly at Stripe’s website or by contacting us.
 
-### 16. References to Our Relationship
+##16. References to Our Relationship
 You agree that, from the time you begin processing payment with Stripe until you terminate your account with us, we may identify you as a customer of Stripe, without any payment being due by Stripe to you. Neither you nor we will imply any untrue sponsorship, endorsement or affiliation between you and Stripe.
 
-## <a id="section_b"></a> Section B: Getting a Stripe Service Account
+#<a id="section_b"></a> Section B: Getting a Stripe Service Account
 
-### 1. Registration
+##1. Registration
 
 The Stripe Service is only made available to persons in Brazil that operate a business selling goods and services that are authorized by Stripe and Elavon and that comply with the Card Network Rules.  The Stripe Service is not made available to persons to accept card payments for personal, family or household purposes.
 You cannot, without our prior written consent, use the Stripe Service or Elavon’s system for activities which are not disclosed to us even where such activities are part of your corporate purposes as set out in your corporate by-laws.
@@ -102,11 +104,11 @@ To use Stripe for your business, you will first have to register for Stripe. Whe
 
 You may choose to register as an individual (sole proprietor) or as a company or other business organization. If you register as a business, you must also provide information about an owner or principal of the business and you declare that you are authorized to act on behalf of the business and that you have the authority to bind the business to this Agreement. In order to sign up a business to use the Service, you must agree to this Agreement on behalf of the business. If you have so agreed, the term “you” will mean you, the natural person, as well as such business.
 
-### 2. Company Descriptions and Site URL
+##2. Company Descriptions and Site URL
 
 As part of your registration, you must provide your site URL (e.g. www.minhaloja.com.br), and the name under which you do business (which may be the business’s legal name or a “nome fantasia”). These fields may appear in your customers’ credit or debit card statements. To avoid customer confusion and transaction disputes, it is important that you enter a description that clearly identifies your business as well as an accurate site URL. You agree to indemnify us from any costs from disputes due to customers failing to recognize your business name on their statements.
 
-### 3. Verification and Underwriting
+##3. Verification and Underwriting
 
 To verify your identity, we will require additional information including without limitation parents’ name, nationality, date and place of birth, organization type, activity and date of formation of your company. We may also ask for additional information to help verify your identity and assess your business risk including business invoices, a personal identification document or other government issued identification, a business license, corporate structure information and ultimate beneficial owner. We may ask you for financial statements. We may request for your permission to do a physical inspection at your place of business and to examine books and records that pertain to your compliance with this Agreement. Your failure to comply with any of these requests within five (5) days may result in suspension or termination of your Stripe account. You authorize us to retrieve additional information about you from third parties and other identification services. Stripe may use your information to apply for card merchant acquiring accounts on your behalf with certain Card Networks.
 
@@ -117,17 +119,17 @@ By accepting the terms of this Agreement, you are providing us with authorizatio
 
 You agree that Stripe is permitted to contact and share information about you and your application (including whether you are approved or declined), and your Stripe account with Elavon. This includes sharing information (a) about your transactions for regulatory or compliance purposes; (b) for use in connection with the management and maintenance of the program; (c) to create and update their customer records about you and to assist them in better serving you; and (d) to conduct Stripe’s risk management process.
 
-### 4. Stripe Service – Brazil
+##4. Stripe Service – Brazil
 
 By registering for Stripe, you confirm that you are either a legal resident of Brazil, a Brazilian sole proprietor of a business or a business entity authorized to conduct business in Brazil. You may not export the Service directly or indirectly. By accepting this Agreement you confirm that you satisfy these requirements and will continue to do so in connection with your use of the Service.
 
 The Service is controlled and operated from its facilities in Brasil. Those who access or use the Service from other jurisdictions do so at their own volition and are entirely responsible for compliance with all applicable laws and regulations, including but not limited to export and import regulations.
 
-### 5. Prohibited Businesses
+##5. Prohibited Businesses
 
 There are certain categories of businesses and business practices for which the Stripe Service cannot be used (“Prohibited Businesses”). Most, although not all, of these Prohibited Business categories are imposed by Card Network Rules, Elavon or the requirements of our banking providers. By registering for Stripe, you confirm that you will not use the Service to accept payments in connection with any of the Prohibited Businesses or in connection with activities that are prohibited by any applicable laws. If you are uncertain as to whether your business is a Prohibited Business, or have questions about how these requirements apply to you, please contact us. We are entitled to not provide the Stripe Service to you where we determine, at our sole discretion, that you are engaged in a Prohibited Business or illegal activity.
 
-### 6. Business Conduct
+##6. Business Conduct
 
 You will only accept payments through Stripe for transactions between you and your customer for the bona fide sale of lawful goods or services. You will not solicit or use a Cardholder’s Card Data for any purpose other than to process payment for your goods and services.
 
@@ -142,9 +144,9 @@ You agree to provide proof to Stripe and Elavon, when requested, of the legal fo
 
 You will comply with all applicable laws, rules, regulations and orders of governments having jurisdiction in connection with your use of the Service.
 
-## <a id="section_c"></a> Section C: Processing Card Transactions and Receiving Your Funds
+#<a id="section_c"></a> Section C: Processing Card Transactions and Receiving Your Funds
 
-### 1. Processing Card Transactions
+##1. Processing Card Transactions
 
 You agree that you will honour all eligible cards presented for payment by your customers for your goods and services in accordance with the Card Network Rules, this Agreement and any operating guides that Stripe or Elavon may provide you from time to time. You agree that you will obtain an authorization from the Card Network(s) for each card transaction, as required under the Network Rules, and will not submit a card transaction for settlement where there is a negative authorization or the card is otherwise expired. You acknowledge that the existence of an affirmative authorization from the Card Networks does not mean that a particular card transaction will not be subject to Chargeback, Reversal or Claim (each such term as defined in Section D(6) below) at a later date.
 
@@ -155,32 +157,32 @@ You will not impose any fee or surcharge on a customer that seeks to use an elig
 You will submit all card transactions for processing no later than three (3) days from the date of authorization. You will maintain appropriate records of all card transactions for a period of at least five (5) years from the date of the transaction.
 You will display all Card Network marks in accordance with the rules and procedures of the Card Networks, and will use such marks only to indicate that you accept their cards for payment.
 
-### 2. Payouts and Transaction History
+##2. Payouts and Transaction History
 
 We will assign commercial credit to you and direct funds to be paid that have settled from the Card Networks to your specified bank settlement account in the amounts actually received (less our Fees and certain other amounts as defined below) for card transactions submitted to our Service. The payouts will be made to the bank account (“Bank Account”) you provide for in your Stripe account. The Bank Account must be an account located at a bank in Brazil and held in your business name. You are responsible for the accuracy and correctness of information regarding your Bank Account. Funds for any given transaction will not be transferred to your Bank Account until the transaction is deemed complete. Transactions will be deemed complete when we have received funds settling from the Card Networks and when we, Elavon or our processing financial institutions have accepted such funds. The actual timing of the transfers to your Bank Account of the settling funds will be subject to the Payout Schedule as defined below. Notwithstanding the foregoing, you acknowledge that all credits for funds provided to you are provisional and subject to reversal including without limitation if there are adjustments for inaccuracies and errors (including rejects) and Chargebacks, Reversals or Claims in accordance with this Agreement and the Card Network payment rules, whether or not a transaction is charged back by the issuer of the Card or the Cardholder. Accordingly, you authorize us to initiate reversal or adjustment (debit or credit) entries to the Bank Account and to initiate or suspend such entries in accordance with this Agreement as may be necessary to grant or reverse provisional credit for any transaction.
 After each payout of card settlement funds to your Bank Account, we will update information in your Stripe dashboard to reflect settlement. Information regarding your card transactions processed and settled with the Services (“Transaction History”) will be available to you when you login to our website using your Stripe account credentials. We provide a minimum of one year of Transaction History on our website. Except as required by law, you are solely responsible for compiling and retaining permanent records of all transactions and other data associated with your Transaction History and your use of the Service.
 
-### 3. Payout Schedule
+##3. Payout Schedule
 
 Payout schedule refers to the time it takes for us to initiate a transfer to your Bank Account of settlement funds arising from card transactions processed through the Service (“Payout Schedule”). Once your Bank Account information has been reviewed, Stripe will initiate transfer of settlement funds (net of Fees, Chargebacks, Reversals, Claims and other funds owed to us for any reason) in accordance with the Payout Schedule, the terms of which will be made available to you when you login to our website using your Stripe credentials, and in accordance with the Card Network rules. The settlement funds should normally be credited to your Bank Account within 1-2 business days of us initiating the payout. We are not responsible for any action taken by the institution holding your Bank Account that may result in some or all of the funds not being credited to your Bank Account or not being made available to you in your Bank Account. You can contact Stripe to inquire about changing the timing of your Payout Schedule. Upon submitting a request, you will be informed of the process and requirements for Stripe to review your Payout Schedule.
 
 Stripe and Elavon reserve the right to change the Payout Schedule or suspend payouts to your Bank Account should Stripe or Elavon determine it is necessary due to pending disputes, excessive or anticipated excessive Chargebacks or refunds, or other suspicious activity associated with your use of the Service or if required by law or court order.
 
-### 4. Reconciliations and Errors
+##4. Reconciliations and Errors
 
 Your Transaction History will be available to you when you login to your Stripe account on our website. Except as required by law, you are solely responsible for reconciling your Transaction History with your actual card payment transactions. You agree to notify us of any discrepancies arising from such reconciliation and verification. We will investigate any reported discrepancies and attempt to rectify any errors that you or we discover. In the event you are owed money as a result of the discrepancy, we will transfer funds to your Bank Account in the next scheduled payout. Your failure to notify us of an error or discrepancy in your Transaction History within sixty (60) days of when it first appears on your Transaction History will be deemed a waiver of any right to amounts owed to you in connection with any such error or discrepancy in processing your card payments.
 
 If you submit or cause us to process transactions erroneously, you agree to contact us immediately. We will investigate any reported errors and attempt to rectify any errors that you or we discover by crediting or debiting your Bank Account as appropriate. Stripe will only correct transactions that you process incorrectly if and when you notify us of such an error. Your failure to notify us of such a processing error within thirty (30) days of when it first appears on your Transaction History will be deemed a waiver of any right to amounts owed to you.
 
-### 5. Refunds and Returns
+##5. Refunds and Returns
 
-By accepting these Terms of Service, you agree to submit any and all refunds and adjustments for returns of your products and services through the Stripe Service to the Cardholder’s Card in accordance with the terms of this Agreement and Card Network Rules. Card Network Rules require that you will (a) maintain a fair return, cancellation or adjustment policy; (b) disclose your return or cancellation policy to customers at the time of purchase; (c) not give cash refunds to a customer in connection with a Card sale, unless as required by law; and (d) not accept cash or any other item of value for preparing a Card sale refund.
+By accepting this Services Agreement, you agree to submit any and all refunds and adjustments for returns of your products and services through the Stripe Service to the Cardholder’s Card in accordance with the terms of this Agreement and Card Network Rules. Card Network Rules require that you will (a) maintain a fair return, cancellation or adjustment policy; (b) disclose your return or cancellation policy to customers at the time of purchase; (c) not give cash refunds to a customer in connection with a Card sale, unless as required by law; and (d) not accept cash or any other item of value for preparing a Card sale refund.
 
 Full refunds must be for the exact amount in Brazilian Reais of the original transaction including any taxes, handling charges, and other. The refund amount may not exceed the original sale amount except by an amount equal to any reimbursements to customer for postage costs incurred for product returns. Refunds processed though the Stripe Service must be submitted within sixty (60) days of the original transaction but in all cases, within three (3) days of approving the Cardholder refund.
 
 For processed refunds, Stripe will deduct the refund amount (including any applicable Fees) from (e) settlement funds owed to you from processing of other card transactions; or (f) funds in any Reserve Account (as defined below). If these funds are not sufficient, you authorize Stripe to initiate a debit entry to your Bank Account in the amount necessary to complete the refund transaction to the Cardholder’s card. In the event Stripe cannot access your Bank Account by means of a debit entry, you agree to pay all funds owed to Stripe upon demand. You are solely responsible for accepting and processing returns of your products and services; Stripe has no responsibility or obligation for processing such returns.
 
-### 6. Chargebacks
+##6. Chargebacks
 
 A Chargeback (defined below in Section D(6)) is typically caused when a customer disputes a charge that appears on their statement. A Chargeback may result in the reversal of a transaction, with the amount charged back to you. You can be assessed Chargebacks for: (a) customer disputes; (b) unauthorized or improperly authorized transactions; (b) transactions that do not comply with Card Network Rules or the terms of this Agreement or are allegedly unlawful or suspicious; or (c) any reversals for any reason by the Card Network, Elavon, or the Cardholder’s card issuing financial institution.
 
@@ -188,7 +190,7 @@ When a Chargeback is issued, you are immediately liable to Stripe for the full a
 
 Further, if we reasonably believe that a Chargeback is likely with respect to any transaction, we may withhold the amount of the potential Chargeback from payments otherwise due to you under this Agreement until such time that: (d) a Chargeback is assessed due to a customer’s complaint, in which case we will retain the funds; (e) the period of time under applicable law or regulation by which the customer may dispute that the transaction has expired; or (f) we determine that a Chargeback on the transaction will not occur.
 
-### 7. Contesting your Chargebacks
+##7. Contesting your Chargebacks
 
 You or Stripe may elect to contest Chargebacks assessed to your Bank Account. Stripe may provide you with assistance including notifications and software to help contest your Chargebacks. We do not assume any liability for our role or assistance in contesting Chargebacks.
 
@@ -198,11 +200,11 @@ If the Cardholder’s issuing financial institution or the Card Network does not
 
 We reserve the right, upon notice to you, to charge a fee for mediating or investigating Chargeback disputes.
 
-### 8. Excessive Chargebacks
+##8. Excessive Chargebacks
 
 At any point, Stripe, Elavon, or the Card Networks may determine that you are incurring excessive Chargebacks. Excessive Chargebacks may result in additional fees, penalties, or fines. Excessive Chargebacks may also result in additional controls and restrictions to your use of the Service, including without limitation: (a) changes to the terms of your Reserve Account; (b) increases to your applicable Fees; (c) delays in your Payout Schedule; or (d) possible suspension or termination of your Stripe account and the Service. The Card Networks may also place additional controls or restrictions as part of their own monitoring programs for merchants with excessive Chargebacks.
 
-### 9. Stripe Fees
+##9. Stripe Fees
 
 You agree to pay the Fees (“Fees”) assessed by us to you for providing the payment services described in this Agreement. These fees will be calculated pursuant to the Fee Schedule linked to and incorporated into this Agreement by reference. We reserve the right to revise our Fees at any time, provided that, with respect to increases in or the introduction of new Fees related to credit card and debit card transactions such increase in or new Fees will be subject to a ninety (90) day notice period to you. For greater certainty, notification is not required for fee changes made in accordance with predeterminations, if any, set out in the Fee Schedule. You are also obligated to pay all taxes and other charges imposed by any governmental authority, on the services provided under this Agreement.
 
@@ -212,27 +214,27 @@ You acknowledge that you are also responsible for any legitimate expenses that S
 
 You hereby agree that we may charge any Fees or other payments you owe us through bank slips (boletos bancários).
 
-### 10. Our Collection Rights
+##10. Our Collection Rights
 
 To the extent permitted by law, we may collect any obligations you owe us under this Agreement by deducting the corresponding amounts from the Reserve Account or from funds payable to you arising from the settlement of card transactions, as provided in Article 368 et seq. of the Brazilian Civil Code. Fees will be assessed at the time a transaction is processed and will be first deducted from the funds received for such transactions. If the settlement amounts or Reserve Account are not sufficient to meet your obligations to us, we may charge or debit the Bank Account or credit card registered in your Stripe account for any amounts owed to us. Your failure to fully pay amounts that you owe us on demand will be a material breach of this Agreement. You will be liable for our costs associated with collection in addition to the amount owed, including without limitation legal fees and expenses, costs of any arbitration or court proceeding, collection agency fees, and any applicable interest.
 
 Additionally, we may require a personal guarantee from a principal of a business for funds owed under this Agreement. If we require a personal guarantee we will specifically inform you.
 
-### 11. Reserves
+##11. Reserves
 
 Funds held in reserves are amounts of money set aside by Stripe in an account maintained by it to cover Chargebacks, refunds, or other payment obligations under this Agreement (a “Reserve Account”). Stripe, in its sole discretion, will set the terms of the Reserve Account and notify you of such terms, which may require that a certain amount (including the full amount) of the funds received for card transactions we process for you is held for a period of time or that additional amounts are held in Reserve Account. Stripe, in its sole discretion, may elect to change the terms of the Reserve Account at any time for any reason based on your payment processing history or as requested by Elavon.
 
 Stripe may fund the Reserve Account by means of: (a) any funds payouts made or due to you for card transactions submitted to the Service; (b) amounts available in your Bank Account by means of a debit to that Bank Account; (c) other sources of funds associated with your Stripe account; or (d) requesting that you provide funds to Stripe for deposit to the Reserve Account. You agree you are not entitled to any interest or other compensation associated with the funds held in the Reserve Account, that you have no right to direct that account, that you have no legal interest in those funds or that account and that you may not assign any interest in those funds or that account.
 
-### 12. Security Interest
+##12. Security Interest
 
-As a condition of providing you, or continuing to provide you, the Stripe Services, Stripe reserves the right to require you to enter into a separate security agreement granting Stripe and the Designated Bank a security interest in all funds on deposit in the Reserve Account.  You will cooperate reasonably with Stripe in the execution, delivery and performance of such a security agreement, and you hereby agree that Stripe will have the right to register any such security agreement with the register of deeds or other applicable governmental bodies.
+As a condition of providing you, or continuing to provide you, the Stripe Services Agreement, Stripe reserves the right to require you to enter into a separate security agreement granting Stripe and the Designated Bank a security interest in all funds on deposit in the Reserve Account.  You will cooperate reasonably with Stripe in the execution, delivery and performance of such a security agreement, and you hereby agree that Stripe will have the right to register any such security agreement with the register of deeds or other applicable governmental bodies.
 
-### 13. Débito Automático
+##13. Débito Automático
 
 You authorize us and our respective vendors and agents to initiate debit and credit entries to the Bank Account for an indeterminate period of time in accordance with this Agreement. You undertake to perform any and all necessary actions to inform your bank about such authorization, and to give effect to the terms and conditions of this Section, as provided under Brazilian law. You hereby waive the right to receive advance notice from us and our vendors and agents of any and all such debits. This authorization will remain in effect after termination of this Agreement and until all of your obligations to us have been paid in full. If you change the Bank Account, this authorization for débito automático will apply to the new account and you shall provide us in writing such information regarding the new account as we deem necessary. Such new account shall thereafter be and become the “Bank Account” for the purpose of this Agreement. It may take us up to ten (10) business days after receipt of a written notice from you to reflect in our system any change to the Bank Account. If you change the Bank Account, you agree that you are responsible for all costs incurred by us in connection with your decision to change the Bank Account. You may revoke this authorization for débito automático at any time, but any such revocation shall give us the right to terminate this Agreement. You may obtain further information on your right to cancel the authorization for débito automático by contacting your financial institution.
 
-##<a id="section_d"></a> Section D: Assignment Of Rights
+#<a id="section_d"></a> Section D: Assignment Of Rights
 
 If you process transactions that exceed thresholds set by the Card Networks, members of the payment methods market, Elavon or applicable law in force for at least twelve (12) months, you will have a direct relationship with Elavon. In accordance with this Section, you will assign certain of your rights under the Agreement to Stripe, which will provide services regarding the capture and routing of transactions and the collection of receivable funds, following the relevant procedure defined by Elavon.
 
@@ -263,25 +265,25 @@ Stripe shall be solely and exclusively responsible for receiving and passing on 
 
 If any provision of this section is considered invalid, illegal or unenforceable by any competent court, such provision shall be deemed modified so that it becomes valid, legal and effective to the maximum extent permitted by law. The other provisions of this section shall not be affected, remaining in full force and effect.
 
-You cannot use receivables that you are due to receive under the Stripe Services as collateral for any credit limit, loan or other credit-related financial transaction, without the explicit approval of Stripe. You cannot lock your banking domicile, nor consent to having your banking domicile locked by your bank, under the Sistema de Controle de Garatias (SCG) system without the explicit approval of Stripe.
+You cannot use receivables that you are due to receive under the Stripe Services Agreement as collateral for any credit limit, loan or other credit-related financial transaction, without the explicit approval of Stripe. You cannot lock your banking domicile, nor consent to having your banking domicile locked by your bank, under the Sistema de Controle de Garatias (SCG) system without the explicit approval of Stripe.
 Information regarding any such amendment of the banking domicile shall be notified to Elavon by the financial institution itself or by an independent entity which  centralizes such information. In the event the members of the payment methods market come to implement a new model for amendment of banking domiciles, you hereby agree that Elavon will be entitled to send all the necessary information to the independent entity responsible for centralizing such information.
 
 If your bank locks your banking domicile or an account withhold is placed on your bank account, Elavon will deposit funds at whatever banking domicile is reported to Elavon and/or Stripe by the SCG. You acknowledge and agree that under this section, if you have a locked banking domicile, the funds will be deposited directly by Elavon, deducting only Elavon's fees. However, you also agree that Stripe reserves the right to collect the Stripe Fees on these transactions as Stripe sees fit.
 The parties recognize that if, at any time during the term of this Agreement, the Card Networks or regulators regulate the business model which is the object of this agreement, all efforts will be made to meet the requirements and rules imposed.
 
-##<a id="section_e"></a> Section E: Termination and Other General Legal Terms
+#<a id="section_e"></a> Section E: Termination and Other General Legal Terms
 
-### 1. Term
+##1. Term
 
 The Agreement is effective upon the date you agree to it (by electronically indicating acceptance) and continues so long as you use the Service or until terminated by Stripe.
 
-### 2. Termination
+##2. Termination
 
 You may terminate this Agreement by closing your Stripe account at any time by following the instructions on our website in your Account Profile. We may terminate this Agreement and close your Stripe account at any time for any reason effective upon providing you notice in accordance with Section A(15) above. We may suspend your access to the Service and any funds otherwise pending disbursement to you, or terminate this Agreement, (a) if we determine in our sole discretion that you are ineligible for the Service because of the risk associated with your use of Stripe, including without limitation significant credit or fraud risk, or for any other reason; (b) if you do not comply with any of the provisions of this Agreement; (c) upon request of Card Network, Elavon or the card issuer; (d) due to events of force majeure or acts of God, as provided in Article 393 of the Brazilian Civil Code; or (e) in any other events set forth in this Agreement.
 
 Regardless of any penalties provided for in the Agreement, your failure to comply with any conditions of this Agreement will be deemed just cause for immediate termination of the Agreement at the discretion of Stripe and Elavon, and you will be liable to indemnify Stripe and Elavon for any resulting losses, penalties, fines, damages or other remedies incurred by or imposed on Stripe and Elavon, including any fines or penalties imposed on Stripe or Elavon by the Card Networks
 
-### 3. Effects of Termination
+##3. Effects of Termination
 
 Upon termination and closing of your Stripe account, we will immediately discontinue your access to the Service. You agree to complete all pending transactions, immediately remove all logos for Cards, and stop accepting new transactions through the Service. You will not be refunded the remainder of any fees that you have paid for the Service if your access to or use of the Service is terminated or suspended. Any funds in our custody will be paid out to you subject to the terms of your payout schedule.
 
@@ -291,13 +293,13 @@ Upon termination you agree: (a) to immediately cease your use of the Service; (b
 
 At any time within thirty (30) days after terminating your Stripe account you may request in writing that we transfer Card Data associated with your Transaction History to an alternative PCI-DSS Level 1 certified payment processor that you identify to us. We will use commercially reasonable efforts to complete such transfer within ten (10) business days from receipt of your written request.
 
-### 4. Your Authorization
+##4. Your Authorization
 
 Stripe grants you a personal, limited, non-exclusive, revocable, non-transferable authorization, without the right to assign, to electronically access and use the Service solely to accept and receive payments and to withdraw the funds you so receive. The Service includes our website, any software, programs, documentation, tools, internet-based services, components, and any updates (including software maintenance, service information, help content, bug fixes or maintenance releases) thereto provided to you by Stripe. You will be entitled to download updates to the Service, subject to any additional terms made known to you at that time, when Stripe makes these updates available.
 
 We may also periodically make available certain Stripe logos, trademarks or other identifiers for your use. If we do so, you will use them subject to and in accordance with Stripe’s then current trademark usage guidelines.
 
-### 5. Ownership
+##5. Ownership
 
 The Service is granted and not sold. We reserve all rights not expressly granted to you in this Agreement. The Service is protected by copyright, trade secret and other intellectual or industrial property laws. We own the title, copyright and other worldwide Intellectual Property Rights (as defined below) in the Service and all copies of the Service. This Agreement does not grant you any rights to our trademarks or service marks.
 
@@ -305,7 +307,7 @@ For the purposes of this Agreement, “Intellectual Property Rights” means all
 
 You may choose to or we may invite you to submit comments or ideas about the Service, including without limitation about how to improve the Service or our products (“Ideas”). By submitting any Idea, you agree that your disclosure is gratuitous, unsolicited and without restriction and will not place Stripe under any fiduciary or other obligation, and that we are free to use the Idea without any additional compensation to you, and/or to disclose the Idea on a non-confidential basis or otherwise to anyone. You further acknowledge that, by acceptance of your submission, Stripe does not waive any rights to use similar or related ideas previously known to Stripe, or developed by its employees, or obtained from sources other than you.
 
-### 6. Your Liability
+##6. Your Liability
 
 You are responsible for all Reversals, Chargebacks, Claims, fines, fees, penalties and other liability arising out of or relating to your breach of Card Network Rules and this Agreement, and/or your use of the Service. You agree to reimburse your customer, Stripe, Elavon and any third party specified by Stripe or Elavon (each, a “Disclaiming Entity”) for any and all such liability. “Chargeback” means a request that a buyer customer files directly with his or her card company or card issuing financial institution to invalidate a processed payment. “Claim” means a challenge to a payment that you or a buyer customer files directly with Stripe. “Reversal” means Stripe reverses the settlement of funds from a processed card transaction that you received because (a) the card transaction is invalidated by the card issuer; (b) the settlement funds were sent to you in error by (i) Stripe; (ii) Elavon, processors, suppliers or licensors of Stripe; or (iii) any of the respective affiliates, agents, directors and employees of any of the entities listed in (i) or (ii) above; (c) the sender of the payment did not have authorization to send the payment (for example: the buyer used a card that did not belong to the buyer); (d) you received the payment for activities that violated this Agreement or any Card Network Rules; or (e) Stripe decided a Claim against you.
 
@@ -319,11 +321,11 @@ You shall reimburse Stripe and/or Elavon for any damages suffered as a result of
 
 If you are liable for any amounts owed to Stripe, Stripe may immediately remove such amounts from your Reserve Account and deduct the amounts owed to Stripe from such Reserve Account funds. If you do not have sufficient funds in the Reserve Account to cover your liability, you will be required to immediately add additional funds to your Reserve Account to cover funds owed to Stripe. If you do not do so, Stripe may engage in collections efforts to recover such amounts from you at your cost and expense.
 
-### 7. Representation and Warranties
+##7. Representation and Warranties
 
 You represent and warrant to Stripe and Elavon that: (a) you are eligible to register and use the Service and have the full right, capacity, power, and ability to enter into and perform under this Agreement on behalf of the company you represent; (b) all information provided by you to Stripe and/or Elavon is true and accurate; (c) any sales transaction submitted by you will represent a bona fide sale by you; (d) any sales transactions submitted by you will accurately describe the goods and/or services sold and delivered to a purchaser; (e) you will fulfill all of your obligations to each customer for which you submit a transaction and will resolve any consumer dispute or complaint directly with the purchaser; (f) you and all transactions initiated by you will comply with all federal, state, and municipal laws, rules, and regulations applicable to your business, including any applicable tax laws and regulations; (g) except in the ordinary course of business, no sales transaction submitted by you through the Service will represent a sale to any principal, partner, proprietor, or owner of your entity; and (h) you will not use the Service, directly or indirectly, for any fraudulent undertaking or in any manner so as to interfere with the use of the Service.
 
-### 8. No Warranties
+##8. No Warranties
 
 The Service and all accompanying documentation are provided on an “as is” and “as available” basis, without any warranties, either express, implied, or statutory, including without limitation any implied warranties of title, merchantability, fitness for a particular purpose, and non-infringement. Use of the Service is at your own risk.
 
@@ -333,7 +335,7 @@ Without limiting the foregoing, the Disclaiming Entities do not warrant (d) that
 
 The Disclaiming Entities do not warrant, endorse, guarantee, or assume responsibility for any product or service advertised or offered by a third party through the Service or any hyperlinked website or service, or featured in any banner or other advertising, and neither Stripe nor any other Disclaiming Entity will be a party to or in any way monitor any transaction between you and third-party providers of products or services.
 
-### 9. Limitation of Liability and Damages
+##9. Limitation of Liability and Damages
 
 In no event shall a Disclaiming Entity (as defined in Section 6 above) be liable for any lost profits or revenue, loss of data, or any direct or indirect, punitive, incidental, special, consequential or exemplary damages arising out of, in connection with or relating to this Agreement or the Services, including without limitation the use of, inability to use, or unavailability of the Service. Under no circumstances will any of the Disclaiming Entities be responsible for any damage, loss or injury resulting from hacking, tampering or other unauthorized access or use of the Service or your Stripe account or the information contained therein.
 
@@ -345,7 +347,7 @@ This limitation of liability Section applies regardless of the legal theory on w
 
 The provisions of this Section 9 shall apply to the fullest extent permitted by law in the applicable jurisdiction.
 
-### 10. Disputes; Choice of Law; Jurisdiction and Venue
+##10. Disputes; Choice of Law; Jurisdiction and Venue
 
 You agree that any disputes arising out of or relating to this Agreement or the Service shall be resolved in accordance with this Section E(10).
 
@@ -353,49 +355,49 @@ This Agreement shall be governed by and interpreted in accordance with the laws 
 
 Headings are included for convenience only, and shall not be considered in interpreting this Agreement. The Agreement does not limit any rights that we may have under trade secret, copyright, patent or other laws. Our failure to assert any right or provision under this Agreement shall not constitute a waiver of such right or provision. No waiver of any term of this Agreement shall be deemed a further or continuing waiver of such term or any other term.
 
-### 11. Right to Amend
+##11. Right to Amend
 
 Considering that this Agreement is executed for an indeterminate period, and that it is the intention of the parties that it remains in full force and effect for a long period, you acknowledge that Stripe and Elavon have the right to change or add to the terms of this Agreement at any time, and to change, delete, discontinue, or create conditions on any feature or aspect of the Service or software with notice that Stripe and Elavon, each in our sole discretion, deem to be reasonable in the circumstances, including such notice on [Stripe’s website](http://www.stripe.com.br) or any other website maintained or owned by Stripe for the purposes of providing services in terms of this Agreement, provided that such website has been informed to you. Any use of the Service or software after our publication of any such changes shall constitute your acceptance of this Agreement as modified.
 
-### 12. Assignment
+##12. Assignment
 
 This Agreement, and any rights and licenses granted hereunder, may not be transferred or assigned by you without our prior written consent, but may be assigned by us without your consent or any other restriction.
 
-### 13. Change of Business
+##13. Change of Business
 
 You agree to give us at least thirty (30) days’ prior notification of your intent to change your current product or services types, your trade name or the manner in which you accept payment. You will immediately notify us of any voluntary or involuntary bankruptcy proceeding, petition, judicial or extrajudicial recovery, insolvency, or similar action or proceeding initiated by or against you or any of your principals. You also agree to promptly notify us of any adverse change in your financial condition, any planned or anticipated liquidation or substantial change in the basic nature of your business, any transfer or sale of 25% or more of your total assets or any change in the control or ownership of you or your parent entity. You will also notify us of any judgment, writ, warrant of attachment, execution or levy against 25% or more of your total assets not later than three days after you obtain knowledge of it.
 
-### 14. Parties
+##14. Parties
 
 This Agreement binds you and your respective heirs, representatives, and permitted and approved successors (including those by merger and acquisition or other corporate transactions) or any permitted assigns.
 
-### 15. Third Party Services and Links to Other Web Sites
+##15. Third Party Services and Links to Other Web Sites
 
 You may be offered services, products and promotions provided by third parties and not by us. If you decide to use these services, you will be responsible for reviewing and understanding the terms and conditions associated with these services. You agree that we are not responsible for the performance of these services. The Stripe website may contain links to third party websites as a convenience to you. The inclusion of any website link does imply an approval, endorsement, recommendation by us. You agree that you access any such website at your own risk, and that the site is not governed by the terms and conditions contained in this Agreement. We expressly disclaim any liability for these websites. Please remember that when you use a link to go from our website to another website, our Privacy Policy is no longer in effect. Your browsing and interaction on any other website, including those that have a link on our website, is subject to that website’s own rules and policies.
 
-### 16. Entire Agreement
+##16. Entire Agreement
 
 This Agreement supersedes any and all oral or written agreements, arrangements, communications or representations heretofore made by the parties relating to the subject matter hereof and constitutes the entire agreement of the parties relating to the subject matter hereof. In the event of a conflict between this Agreement and any other Stripe agreement or policy, this Agreement shall prevail on the subject matter of this Agreement. If any provision of this Agreement (or portion thereof) is held to be invalid or unenforceable under applicable law, then it shall be changed and interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable law, and the remaining provisions will continue in full force and effect. This Agreement has been reviewed by you with the benefit of independent legal counsel to the extent you consider necessary. The rights conferred upon us in this Agreement are not intended to be exclusive of each other or of any other rights and remedies we may have at law or in equity. Rather, each and every right we may have under this Agreement, at law or in equity is cumulative and concurrent and in addition to every other right.
 
-### 17. Survival
+##17. Survival
 
 In addition to any provision that is reasonably necessary to accomplish or enforce the purpose of this Agreement, the following Sections of this Agreement survive and remain in effect in accordance with their terms upon the termination of this Agreement: Sections A(3) – “Authorization for Handling of Funds”, A(8) – “Data Security”, A(11) – “Privacy of Others”, C(4) – “Reconciliations and Errors”, C(5) - “Refunds and Returns”, C(6) - “Chargebacks”, C(9) – “Stripe Fees”, C(10) – “Our Collection Rights”, C(11) – “Reserves”, C(13) – “Débito Automático”, D(3) – “Effects of Termination”, D(5) – “Ownership”, D(6) – “Your Liability”, D(8) – “No Warranties”, D(9) – “Limitation of Liability and Damages”, D(10) – “Disputes; Choice of Law; Jurisdiction and Venue”, D(16) – “Entire Agreement” and D(17) – “Survival”.
 
-##<a id="section_f"></a> Section F: Installing Applications on your Stripe Account
+#<a id="section_f"></a> Section F: Installing Applications on your Stripe Account
 
 These terms only apply to you if you authorize another application to connect to your Stripe account.
 
-By authorizing another application to link to your Stripe account, you agree to be bound by these Stripe Connect User Terms as well as the Stripe Terms of Service. You specifically agree as follows:
+By authorizing another application to link to your Stripe account, you agree to be bound by these Stripe Connect User Terms as well as the Stripe Services Agreement. You specifically agree as follows:
 
-### 1. Application Permissions
+##1. Application Permissions
 
 By authorizing an application to link to your Stripe account (a “Partner Application”) you are authorizing Stripe to permit the Partner Application to (a) access your Stripe account data; (b) create charges and customers in your Stripe account; and (c) deduct amounts (for example, fees and charges) from the amount that would otherwise be payable to you from transactions occurring in connection with the Partner Application (“Partner Fees”). Any Partner Fees will be in addition to Stripe’s own fees and charges.
 
-### 2. Duration
+##2. Duration
 
 Once you have authorized a Partner Application it will continue to have access to your Stripe account and be authorized as described in these Stripe Connect User Terms until you specifically withdraw your authorization by changing the settings in your Stripe account dashboard.
 
-##<a id="section_g"></a> Section G: General Provisions
+#<a id="section_g"></a> Section G: General Provisions
 
 You expressly acknowledge and agree that any pledge, assignment or transfer of ownership, negotiations involving any instrument of credit, or offering as security for loans of credits arising from transactions will be ineffective, null and void, producing no result in respect of Elavon, except in the case of prior written agreement by Elavon granted directly to you or to a bank institution that represents it.  Elavon may, in that case, charge the current fees for the service.
 
@@ -413,4 +415,420 @@ The nullity or invalidity of any provision of the Agreement will not imply the n
 
 Any tolerance, forbearance, partial enforcement or concession between the parties shall always be considered mere liberality, and shall not imply on waiver or loss of any right, faculty, privilege, prerogative or powers granted (including of mandate), nor shall imply on novation, amendment, lenience, change or reduction of the rights and obligations derived herefrom.
 
-</section>
+</article>
+
+<header id="br_tos_port">
+# Termos do Serviço &mdash; Brasil
+
+</header>
+
+<article>
+
+Estes Termos e Condições constituem um contrato legal (“Contrato” ou “Contrato com Estabelecimento”) entre o empresário individual, pessoa jurídica ou organização comercial listada como “Estabelecimento” na página de registro no Serviço (algumas vezes designada “você”, “seu” ou “usuário”), a Stripe Brasil Participações Ltda. (“Stripe”), na capacidade de agente da Elavon, e a Elavon do Brasil Soluções de Pagamento S.A. (“Elavon”), na capacidade de adquirente. Você deverá ler, compreender e aceitar todas as condições estabelecidas neste Contrato e nas demais políticas incorporadas ao presente instrumento por referência antes de seu registro como usuário do Serviço (conforme definição abaixo).
+
+# Cláusula A: O Serviço Stripe
+
+##1. Objeto
+
+Este Contrato tem por objeto a prestação de serviços de tecnologia de plataforma e processamento de pagamentos pela Stripe (“Serviço” ou “Serviço Stripe”) para você. O Serviço Stripe auxilia você a aceitar e processar os pagamentos por meio de cartões de crédito, cartões de débito e outros tipos de cartões (conjuntamente “cartões” ou “Cartões” ou, individualmente, um “cartão” ou “Cartão”) e outras soluções de pagamentos pelos seus clientes (cada, um “cliente” ou um “Titular do Cartão”) em consideração aos seus produtos e serviços. A Stripe não é uma instituição de arranjos de pagamento ou uma instituição de pagamento e a Stripe não administra contas de pagamento, não emite moeda eletrônica nem atua na capacidade de adquirente conforme definido na Lei nº. 12.865, datada de 9 de outubro de 2013 e pelas demais regras aplicáveis emanadas pelo Conselho Monetário Nacional e/ou pelo Banco Central do Brasil. Pelo presente instrumento, você reconhece que a Stripe não presta nenhum tipo de serviço de adquirência, os quais serão prestados pela Elavon nos termos deste Contrato e das leis e regulamentos aplicáveis. Ainda, a Stripe e a Elavon não assumem nenhuma responsabilidade pelos produtos ou serviços adquiridos através do Serviço Stripe. O usuário deverá efetuar a seu registro e obter uma conta de serviço para utilizar o Serviço Stripe (ver a Cláusula B(1) para maiores informações). Essa “conta Stripe” permite que você reveja as operações com cartões em processo de liquidação por um Instituidor de Arranjo de Pagamento (conforme definição abaixo) e pela Stripe para a conta corrente que você tenha especificado.
+
+##2. Software da Stripe
+
+A Stripe irá fornecer interfaces de programação de aplicativos da Stripe (application programming interfaces, conjuntamente, “API”) e outros softwares, permitindo a você o uso do Serviço. A Stripe reserva o direito de exigir que você instale ou atualize todos e quaisquer softwares para continuar a usar o Serviço. O Serviço Stripe inclui também um software para ajudar você a administrar cobranças recorrentes e de assinatura para seus produtos e serviços. Será de sua responsabilidade obter o consentimento do seu cliente, no caso de faturamento recorrente, em conformidade com as exigências legais aplicáveis e, se aplicável, as regras emitidas pelos respectivos Instituidores de Arranjos de Pagamento (“Regulamentos dos Arranjos de Pagamento”, ver a Cláusula A(14) para maiores informações) e as regras emitidas pela Elavon.
+
+##3. Autorização para o Manuseio de Recursos
+
+Ao aceitar este Contrato, você autoriza a Stripe a deter, receber e desembolsar recursos em seu nome no caso de liquidação de suas operações de cartões pelos Instituidores de Arranjos de Pagamento. Você reconhece que os recursos referidos acima serão mantidos na conta detida pela Stripe junto ao Banco Santander (Brasil) S.A. (“Banco Designado”). Você também autoriza a Stripe a instruir o Banco Designado para que os recursos da liquidação de suas operações com cartões sejam desembolsados a você (como, por exemplo, por meio de Transferência Eletrônica Disponível - TED ou Documento de Ordem de Crédito – DOC) e o momento desses desembolsos. Você também concorda que a Stripe poderá manter os recursos de liquidação em uma conta depósito perante o Banco Designado em seu nome enquanto estiver pendente o desembolso de recursos para você em conformidade com os termos deste Contrato. Você concorda que não terá o direito (i) de usar a remuneração associada aos recursos de liquidação mantidos na conta depósito junto ao Banco Designado para adquirir qualquer produto ou serviço nem o direito de transferir os recursos de liquidação para satisfazer qualquer outra obrigação que não esteja necessariamente relacionada à aquisição do produto ou serviço; ou (ii) a quaisquer juros ou outra remuneração associada aos recursos de liquidação mantidos na conta depósito perante o Banco Designado enquanto pendente sua liquidação para a conta de liquidação por você indicada ao se inscrever na Stripe, que você não terá o direito de movimentar essa conta depósito, que você não possui nenhuma participação legal sobre esses recursos ou sobre a referida conta e que você não poderá ceder nenhuma participação sobre os referidos recursos ou sobre a conta depósito no Banco Designado. A Stripe poderá a qualquer momento disponibilizar a você informações no Serviço Stripe relacionadas a valores de liquidação previstos que tenham sido recebidos pela Stripe em seu nome dos Instituidores de Arranjos de Pagamento e que estejam sendo mantidos enquanto esteja pendente sua liquidação. Essas informações de liquidação não constituem uma obrigação de depósito ou outra obrigação da Stripe perante você. Essas informações de liquidação refletidas no painel de administração da Stripe têm somente natureza de divulgação e informativa e você não terá nenhuma prerrogativa e não terá a propriedade ou outro direito sobre os recursos de liquidação, até que esses recursos tenham sido creditados na sua conta de liquidação especificada. As suas autorizações estabelecidas no presente instrumento permanecerão em pleno vigor e efeito até o encerramento ou rescisão da sua conta Stripe, conforme o disposto na Cláusula B abaixo.
+##4. Meios de Pagamento
+
+O serviço da Stripe de processamento de cartões é compatível com qualquer cartão emitido no Brasil e com a maioria dos cartões internacionais com um logotipo de um Instituidor de Arranjo de Pagamento, inclusive de crédito, débito ou outros instrumentos de pagamento. A Stripe somente irá processar as operações com cartões que tenham sido autorizadas pelo respectivo Instituidor de Arranjo de Pagamento ou pela emissora do cartão. Você será exclusivamente responsável pela verificação da identidade dos usuários e pela elegibilidade de todos os cartões de pagamento apresentados que sejam utilizados para a aquisição de seus produtos e serviços. A Stripe e a Elavon não garantem nem assumem nenhuma responsabilidade pelas operações autorizadas e concluídas que sejam posteriormente objeto de chargebacks (ver Chargebacks abaixo). Você será exclusivamente responsável por todas as operações objeto de chargeback, independentemente de seu motivo ou momento do chargeback. A Stripe poderá incluir ou excluir um ou mais tipos de cartões de pagamento compatíveis a qualquer momento, sem prévio aviso.
+
+##5. Atendimento ao Cliente
+
+A Stripe irá prestar a você serviço de atendimento ao cliente, para auxiliar a resolver quaisquer questões relativas ao uso do Serviço Stripe, ao processamento de seus pagamentos com cartões e uso do software da Stripe e a distribuição de recursos para a sua conta de liquidação especificada. Você, e somente você, será responsável pelo serviço de atendimento aos seus clientes em todas e quaisquer questões relacionadas aos seus produtos e serviços, incluindo, mas sem limitação, questões decorrentes do processamento dos cartões dos clientes através do Serviço.
+
+##6.    Tributos
+
+Os tributos de qualquer natureza relacionados às operações previstas neste Contrato deverão ser pagos pela parte a quem a lei atribua a sua responsabilidade.
+
+##7. Segurança
+
+A Stripe é responsável pela segurança dos Dados do Cartão sob a posse da Stripe e irá manter procedimentos comercialmente razoáveis de natureza administrativa, técnica e física para proteger todos os Dados do Cartão e as suas informações pessoais e as informações pessoais de seus clientes que estejam armazenados em seus servidores contra o acesso não autorizado e perda ou modificação acidental. Entretanto, a Stripe não garante que terceiros não autorizados jamais conseguirão ultrapassar essas medidas ou usar as referidas informações pessoais para fins indevidos. Você reconhece que as suas informações pessoais e as de seus clientes são prestadas por você por sua própria conta e risco.
+Você reconhece e concorda que a Stripe, a seu exclusivo critério e a qualquer momento, poderá modificar os referidos procedimentos administrativos, técnicos e físicos visando melhorias de sua segurança.
+
+##8. Segurança dos Dados
+
+Você será integralmente responsável pela segurança dos dados no seu website ou de outra forma sob a sua posse. Você concorda em observar todas as leis e regras aplicáveis, da esfera municipal, estadual e federal, relacionadas à coleta, uso, manutenção, segurança e disseminação de quaisquer informações pessoais, financeiras, de Cartões ou de operações (definidas como “Dados”) no seu website. Você concorda que deverá a todo o tempo observar os Padrões de Segurança de Dados da Indústria de Cartões de Pagamento (Payment Card Industry Data Security Standards - PCI-DSS) e os Padrões de Segurança de Dados de Aplicativos de Pagamento (Payment Application Data Security Standards - PA-DSS), conforme aplicável. As medidas que deverão ser adotadas por você para a observância dos PCI-DSS e dos PA-DSS ao usar o Serviço Stripe irão variar de acordo com a sua implementação. Para maiores informações sobre a implementação do Serviço Stripe, ver a Documentação da Stripe. Se a Stripe entender que será necessário, considerando a sua implementação e se solicitado pela Stripe, você irá imediatamente fornecer à Stripe a documentação evidenciando a sua observância dos PCI-DSS e/ou dos PA-DSS. Se a sua implementação envolver o armazenamento ou a transmissão de Dados do Cartão, você também concorda em usar somente prestadores de serviços que observem o PCI no que diz respeito ao referido armazenamento ou transmissão. Em qualquer hipótese, você não poderá em nenhum momento gravar dados CVV2. Poderão ser encontradas informações sobre os PCI-DSS no website do Conselho de Padrões de Segurança PCI em: https://www.pcisecuritystandards.org. Você será responsável pela observância desses padrões.
+
+Você também deverá cumprir os requisitos de segurança de dados dos Instituidores de Arranjos de Pagamento, da Elavon e da Stripe.
+
+As suas obrigações de segurança de dados nos termos desta Cláusula permanecerão em vigor mesmo após a rescisão deste Contrato por qualquer razão. A inobservância das suas obrigações de segurança de dados, inclusive por meio de atos de seus diretores, empregados, representantes e subcontratados, responsabilizará você por quaisquer perdas, penalidades, multas, danos ou outras medidas resultantes, incorridos pela ou impostos à Stripe ou à Elavon.
+
+##9. Direito de Auditoria
+
+Se a Stripe e a Elavon, em conjunto, entenderem que ocorreu uma violação de segurança ou comprometimento de dados, a Stripe e a Elavon, em conjunto, poderão exigir que seja conduzida uma auditoria de segurança dos seus sistemas e dependências, por um auditor terceirizado aprovado pela Stripe e pela Elavon, com a emissão de um laudo, a ser encaminhado à Stripe, ao Banco Designado, à Elavon e aos Instituidores de Arranjos de Pagamento.
+
+Se você suspeitar, tiver motivos para suspeitar ou tiver conhecimento de qualquer violação ou comprometimento de dados, você deverá imediatamente notificar a Stripe e a Elavon.
+
+##10. Privacidade
+
+A sua privacidade e a proteção dos seus dados são muito importantes para a Stripe. Você reconhece que você recebeu, leu integralmente e concorda com os termos da Política de Privacidade da Stripe, incorporada a este Contrato por referência, e cujo link está presente neste Contrato, cuja Política de Privacidade contém o seu consentimento para a coleta, uso, retenção e divulgação de informações pessoais pela Stripe bem como outras matérias nela estabelecidas, explicando a forma e os objetivos para a coleta, uso, manutenção, divulgação e salvaguarda pela Stripe das informações fornecidas por você para a Stripe. A Stripe e a Elavon deverão manter os seus dados em sigilo, exceto se a sua divulgação, inclusive às autoridades competentes, ao Ministério da Fazenda, ao Banco Central do Brasil ou às Autoridades Fiscais Federais ou Estaduais, for necessária para o cumprimento da lei, sendo que, nesse caso, a Stripe e a Elavon poderão divulgar todas as informações solicitadas sobre você e/ou os seus dados.
+
+Você também reconhece que a Stripe e/ou a Elavon estão obrigadas a informar a sua denominação social, o nome dos seus sócios e as informações dos seus sócios, para sua verificação nos cadastros de Restrições, conforme exigido pelos Instituidores de Arranjos de Pagamento e/ou pelo Governo Brasileiro, se aplicável. Você especificamente concorda com o cumprimento das obrigações de cadastro pela Stripe ou pela Elavon e com a sua própria inclusão, e você renúncia e exime a Stripe e a Elavon de todas as reivindicações e responsabilidades que você possa ter em sua decorrência.
+
+Você também reconhece que a Stripe, a Elavon, as Emissoras de Cartões e os Instituidores de Arranjos de Pagamento poderão compartilhar as suas informações de cadastro entre si.
+
+##11. Privacidade de Terceiros
+
+Você declara para a Stripe que você cumpre todas as leis de privacidade aplicáveis, que você obteve todos os direitos e permissões necessários nos termos da lei aplicável para a divulgação à Stripe ou para permitir a coleta, uso, manutenção e divulgação pela Stripe de Dados do Titular do Cartão que você venha a fornecer à Stripe ou inclusive para autorizar a coleta pela Stripe das informações que a Stripe venha a coletar diretamente de seus usuários finais por meio de cookies ou por outros meios, e que a Stripe não irá violar nenhuma dessas leis em virtude da coleta, recebimento, uso e divulgação das referidas informações em relação ao Serviço. Entre você e a Stripe, você será exclusivamente responsável pela divulgação aos seus clientes de que a sociedade processando as operações com cartões de crédito terá acesso e irá armazenar Dados dos referidos clientes exclusivamente com a finalidade de processar os pagamentos. A Stripe irá prestar o Serviço, total ou parcialmente, por meio de sistemas localizados nos Estados Unidos ou em outros países fora do Brasil. Dessa forma, você estará obrigado a divulgar aos seus clientes que os Dados do Titular do Cartão poderão ser transferidos, processados e armazenados no exterior e, conforme previsto na Política de Privacidade da Stripe, poderão ser divulgados conforme exigido pela lei aplicável.
+
+Se você receber informações de terceiros, inclusive de Titulares dos Cartões e de suas operações, Dados dos Cartões e Dados dos Titulares dos Cartões, através do Serviço, você deverá manter todas essas informações em confidencialidade e sigilo e somente poderá usá-las em relação ao Serviço e nos termos deste Contrato. Você não poderá divulgar nem distribuir qualquer informação dessa natureza a terceiros nem usar qualquer informação dessa natureza para fins de marketing, salvo se você tiver recebido o consentimento expresso do usuário. Você não poderá divulgar os números dos cartões a terceiros, salvo em relação ao processamento de uma operação com cartão solicitada pelo seu cliente nos termos do Serviço ou se exigido por lei.
+
+Na hipótese de qualquer divulgação não autorizada de informações confidenciais, incluindo, mas sem limitação dos Dados dos Cartões e dos Dados dos Titulares dos Cartões, por você, inclusive por meio de atos de seus diretores, empregados, representantes e subcontratados, você será responsável pelo reembolso à Stripe e à Elavon de quaisquer perdas, penalidades, multas, danos ou outras medidas resultantes, incorridos pela ou impostos à Stripe ou à Elavon.
+
+A Elavon poderá informar ao COAF - Conselho de Controle de Atividades Financeiras as operações sujeitas ao disposto na Lei nº. 9.613/98 e a outras regras de lavagem de dinheiro, inclusive suas regras e políticas internas.
+
+##12. Uso Restrito
+
+Você está obrigado a respeitar todas as leis, regras e regulamentos aplicáveis ao seu uso do Serviço. Em acréscimo a quaisquer outras obrigações, requisitos ou restrições estabelecidos neste Contrato, você não deverá: (i) utilizar o crédito disponível em qualquer Cartão para fornecer adiantamentos em dinheiro aos Titulares dos Cartões; (ii) apresentar qualquer operação com cartão para seu processamento, cuja operação não seja decorrente de sua venda de bens ou prestação de serviços ao seu cliente; (iii) atuar como intermediário de pagamento ou agregador ou de outra forma revender os serviços da Stripe em nome de qualquer terceiro; (iv) enviar autorizações se você entender que se tratam de autorizações potencialmente fraudulentas ou operações fraudulentas com cartões; ou (v) usar o Serviço de maneira que um ou mais Instituidores de Arranjos de Pagamento ou a Elavon razoavelmente entendam que constituam abuso ao Instituidor de Arranjo de Pagamento ou uma violação a Regulamentos dos Arranjos de Pagamento (conforme definição abaixo).
+
+Você também concorda em não praticar nem permitir que qualquer terceiro pratique quaisquer dos atos a seguir: (i) acessar ou tentar obter acesso aos sistemas, programas ou dados da Stripe que não estejam disponíveis para uso público; (ii) copiar, reproduzir, republicar, efetuar o upload, postar, transmitir, revender ou distribuir de qualquer forma material através da Stripe; (iii) permitir que qualquer terceiro use e se beneficie do Serviço por meio de uma locação, arrendamento, compartilhamento, serviço de bureau ou por meio de outro acordo; (iv) transferir quaisquer direitos outorgados a você nos termos deste Contrato; (v) contornar quaisquer limites técnicos do Serviço, usar qualquer ferramenta para permitir características ou funcionalidades que estejam de outra forma desabilitadas no Serviço, ou descompilar, desmontar ou de outra forma efetuar engenharia reversa do Serviço, exceto se essa restrição for expressamente proibida por lei; (vi) praticar ou tentar praticar quaisquer atos que iriam interferir na devida operação do Serviço, que impediriam o acesso ou o uso do Serviço pelos demais usuários da Stripe ou que iriam impor uma restrição injustificada ou desproporcionalmente maior sobre a infraestrutura da Stripe; ou (vii) usar o Serviço de forma diversa que ao expressamente permitido nos termos deste Contrato.
+
+##13. Suspeita de Uso Não Autorizado ou Ilegal
+
+A Stripe e a Elavon reservam o direito de não autorizar ou efetuar a liquidação de qualquer operação por você submetida que a Stripe e/ou a Elavon entendam que viole este Contrato, qualquer outro contrato da Stripe ou que exponha você, outros usuários da Stripe, a Elavon ou a Stripe a prejuízos, incluindo, entre outros, fraude ou outros atos criminosos. A Stripe e a Elavon reservam o direito de compartilhar informações sobre você, sobre suas operações ou sobre seu uso do Serviço com as autoridades de aplicação da lei se a Stripe e a Elavon razoavelmente suspeitarem que sua conta na Stripe tenha sido utilizada para fins não autorizados, ilegais ou criminosos.
+
+Você concorda que a Stripe e/ou a Elavon poderão tentar identificar e impedir que cartões sejam utilizados para fins não autorizados, ilegais ou criminosos, e você se compromete a cooperar com a Stripe e com a Elavon, fornecendo quaisquer informações que a Stripe ou a Elavon venham a solicitar, e, caso contrário, você será responsável por quaisquer perdas, penalidades, multas, danos ou outras medidas resultantes, incorridos pela ou impostos à Stripe ou à Elavon, e o presente Contrato poderá ser rescindido pela Stripe ou pela Elavon.
+
+Você reconhece e concorda que (a) as atividades irregulares ou suspeitas associadas ao seu uso do Serviço ou aos sistemas da Elavon conforme monitorado pelos Instituidores de Arranjos de Pagamento, pela Stripe ou pela Elavon, ou (b) ao chegar a um limite específico, definido pelos Instituidores de Arranjos de Pagamento, pela Stripe ou pela Elavon, de operações irregulares ou suspeitas, poderão ser impostas outras taxas, penalidades ou multas a você bem como novos controles e restrições ao seu uso do Serviço, incluindo, sem limitação: (i) alterações aos termos de sua Conta Reserva; (ii) aumentos das suas respectivas Taxas; (iii) atrasos ao seu Cronograma de Transferências; ou (iv) suspensão ou encerramento de sua conta na Stripe e do Serviço, e você será responsável por quaisquer perdas, penalidades, multas, danos ou outras medidas resultantes, incorridos pela ou impostos à Stripe ou à Elavon, inclusive quaisquer multas impostas à Stripe ou à Elavon pelos Instituidores de Arranjos de Pagamento. Os Instituidores de Arranjos de Pagamento poderão também impor controles ou restrições adicionais como parte de seus próprios programas de monitoramento para estabelecimentos, no caso de operações irregulares ou suspeitas.
+
+Se você se envolver em operações fraudulentas, este Contrato poderá ser imediatamente rescindido pela Stripe ou pela Elavon e você será responsável por quaisquer perdas, penalidades, multas, danos ou outras medidas resultantes, incorridos pela ou impostos à Stripe ou à Elavon, bem como outras medidas judiciais. Você também será responsável pelas perdas incorridas pela Stripe, pela Elavon, pelos Instituidores de Arranjos de Pagamento e/ou pelas emissoras causadas por fraude ou tentativa de fraude, incluindo, sem limitação, uso fraudulento do Serviço ou do sistema da Elavon, do cartão ou dos Dados do Cartão. As referidas perdas incorridas poderão ser deduzidas dos valores devidos a você.
+Você deverá orientar e monitorar seus diretores, empregados, representantes e subcontratados para a detecção e prevenção de operações de fraude, e será responsável por todos os atos por eles praticados. Em especial, você será responsável por todos os atos de seus diretores, empregados, representantes e subcontratados que envolvam fraude, uso não autorizado, ilegal ou criminoso do Serviço ou do sistema da Elavon.
+
+##14. Regulamentos dos Arranjos de Pagamento
+
+Os Instituidores de Arranjos de Pagamento estabeleceram diretrizes, estatutos, regras e/ou regulamentos (“Regulamentos dos Arranjos de Pagamento”). Você está obrigado a observar todos os Regulamentos dos Arranjos de Pagamento que sejam aplicáveis aos estabelecimentos. Você poderá acessar algumas regras dos Instituidores de Arranjos de Pagamento nos respectivos websites dos Instituidores de Arranjos de Pagamento. Os Instituidores de Arranjos de Pagamento reservam o direito de aditar os Regulamentos dos Arranjos de Pagamento. A Stripe e a Elavon reservam o direito de aditar o Contrato a qualquer momento, através do envio de uma notificação a você, se necessário para o cumprimento dos Regulamentos dos Arranjos de Pagamento ou para abordar outras alterações no Serviço.
+
+##15. Divulgações e Notificações
+
+Você concorda que a Stripe poderá efetuar divulgações e notificações sobre o Serviço a você, através de um post dessas divulgações e notificações no website da Stripe, de um e-mail ao endereço de e-mail listado na sua conta da Stripe, ou do envio de tais divulgações e notificações por correio ao endereço listado na sua conta da Stripe. Você também concorda que as divulgações e notificações eletrônicas terão o mesmo significado e efeito como se tivessem sido enviadas a você por meio de uma cópia em papel. Essas divulgações e notificações serão consideradas como tendo sido recebidas por você no prazo de 24 horas de sua postagem no website da Stripe ou do seu envio por e-mail a você, salvo se a Stripe tiver recebido um aviso de que o e-mail não foi entregue. A Stripe não será responsável por quaisquer e-mails falsos enviados por terceiros, sem relação direta com a Stripe e sempre recomenda a verificação de quaisquer informações diretamente no website da Stripe ou através de contato com a Stripe.
+
+##16. Referências ao Nosso Relacionamento
+
+Você concorda que a partir do início do processamento de pagamentos com a Stripe até o encerramento de sua conta na Stripe, a Stripe poderá identificar você como cliente da Stripe, sem que qualquer pagamento seja devido pela Stripe. Nem você nem a Stripe irão indicar qualquer patrocínio, endosso ou afiliação inverídico entre você e a Stripe.
+
+# Cláusula B: Obtenção de uma Conta do Serviço Stripe
+
+##1. Registro
+
+O Serviço Stripe somente estará disponível a pessoas no Brasil que operem uma atividade de venda de bens e serviços autorizados pela Stripe e pela Elavon e desde que observadas os Regulamentos dos Arranjos de Pagamento. O Serviço Stripe não está disponível para a aceitação de pagamentos com cartão por uma pessoa para fins pessoais, familiares ou residenciais.
+
+Sem o consentimento prévio e por escrito da Stripe, você não poderá usar o Serviço Stripe ou o sistema da Elavon para atividades que não sejam divulgadas à Stripe, mesmo se as referidas atividades integrarem o seu objeto social previsto no seu estatuto social.
+
+Para usar o Serviço Stripe para suas atividades, você terá que primeiramente efetuar seu registro na Stripe. Ao efetuar seu registro na Stripe, a Stripe irá coletar informações básicas, inclusive sua denominação social, seu endereço comercial completo, seu número de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ) ou no Cadastro das Pessoas Físicas (CPF) e o nome completo dos representantes de sua empresa. Caso você ainda não o tenha feito, você estará obrigado a fornecer um endereço de e-mail e sua senha de acesso ao Serviço Stripe. Você concorda em manter sua senha sob sua custódia, estabelecido que a Stripe não será responsável por quaisquer danos causados a você ou a quaisquer terceiros em razão da divulgação e/ou uso indevido de sua senha.
+
+Você poderá efetuar seu registro na capacidade de pessoa física (empresário individual) ou pessoa jurídica ou outra organização comercial. Se você efetuar seu registro como pessoa jurídica, você também deverá prestar as informações sobre seu proprietário ou sócio e você declara que está autorizado a agir em nome da pessoa jurídica e que você tem autoridade para vincular referida pessoa jurídica a este Contrato. Para o registro de uma pessoa jurídica para o uso do Serviço, você deverá concordar com este Contrato em nome da pessoa jurídica. Se você tiver concordado, o termo “você” significa você, a pessoa física e ainda a pessoa jurídica.
+
+##2. Descrições da Sociedade e URL do Site
+
+Como parte de seu registro, você deverá fornecer a URL de seu site (por exemplo, www.minhaloja.com.br), e o seu nome comercial (a denominação social ou um “nome fantasia”). Esses campos irão aparecer nos demonstrativos dos cartões de crédito ou débito do seu cliente. Para evitar confusão do cliente ou questionamento de qualquer operação, é importante que você insira uma descrição claramente identificando sua pessoa jurídica bem como a URL correta do seu site. Você concorda em indenizar à Stripe quaisquer custos originados do não reconhecimento de seu nome comercial pelos clientes em seus demonstrativos.
+
+##3. Verificação e Subscrição
+
+Para verificar sua identidade, a Stripe irá exigir outras informações, incluindo, sem limitação, o nome dos pais, nacionalidade, data e local de nascimento, tipo societário, atividade e data de constituição de sua sociedade. A Stripe também poderá exigir informações adicionais para a verificação da sua identidade e para a avaliação do seu risco comercial, inclusive notas fiscais, documento de identificação pessoal ou outra identificação de emissão do governo, uma licença comercial, informações de estrutura empresarial e legítimo beneficiário final. A Stripe poderá solicitar suas demonstrações financeiras. A Stripe poderá solicitar sua autorização para a realização de uma inspeção física de sua sede social e para o exame dos livros e registros pertinentes ao seu cumprimento deste Contrato. O descumprimento de quaisquer pedidos no prazo de 5 (cinco) dias poderá resultar na suspensão ou no encerramento de sua conta na Stripe. Você autoriza a Stripe a obter informações adicionais sobre você de terceiros e outros serviços de identificação. A Stripe poderá usar suas informações para requerer contas de domicílio de cartões para estabelecimentos em seu nome perante determinados Instituidores de Arranjos de Pagamento.
+
+Após a coleta e verificação pela Stripe de todas as suas informações, a Stripe irá analisar a sua conta e determinar se você poderá usar o Serviço. A Stripe também poderá compartilhar suas informações com os bancos emissores, com os Instituidores de Arranjos de Pagamento e com a Elavon, os quais também poderão determinar sua elegibilidade. A Stripe irá notificar a aprovação ou não de sua conta para o uso do Serviço.
+
+Para determinar se você poderá usar o Serviço, a Stripe irá avaliar suas atividades comerciais, a estabilidade financeira de suas atividades e seus sócios, representantes, proprietários e/ou acionistas, qualquer relacionamento anterior que você tenha tido com a Stripe, e qualquer outra análise financeira, incluindo quaisquer critérios que poderão ser adotados a qualquer momento pela Stripe, inclusive durante o prazo de vigência deste Contrato.
+
+Ao aceitar os termos deste Contrato, você autoriza a Stripe a obter informações sobre você de terceiros e a prestar informações sobre você a terceiros, incluindo, sem limitação, a agências de análise de crédito ou credit bureau e outras centrais de informações e você autoriza e instrui esses terceiros a compilarem e fornecerem essas informações à Stripe. Você reconhece que as referidas informações recuperadas e fornecidas poderão incluir seu nome, histórico de endereços, histórico de crédito e outros dados sobre você. A Stripe poderá periodicamente atualizar as referidas informações com o intuito de determinar se você continua a atender os requisitos de elegibilidade da Stripe.
+
+Você concorda que a Stripe está autorizada a contatar e a compartilhar informações sobre você e seu requerimento de registro (seja ele aprovado ou recusado) e sua conta na Stripe com a Elavon, inclusive o compartilhamento de informações (a) sobre suas operações, para fins regulatórios ou de compliance; (b) para seu uso na administração e manutenção do programa; (c) para a criação e atualização dos seus cadastros como cliente e para o seu melhor atendimento; e (d) para o processo de gestão de risco da Stripe.
+
+##4. Serviço Stripe - Brasil
+
+Ao se registrar junto à Stripe, você confirma que você é residente legal no Brasil, um empresário individual brasileiro ou uma pessoa jurídica autorizada a exercer atividades comerciais no Brasil. Você não poderá exportar o Serviço, direta ou indiretamente. Ao aceitar este Contrato, você confirma que você atende esses requisitos e que assim continuará no que diz respeito ao seu uso do Serviço.
+O Serviço é controlado e operado a partir das dependências da Stripe no Brasil. Aqueles que tenham acesso ou usem o Serviço a partir de outras jurisdições o farão por sua própria vontade e são integralmente responsáveis pela observância de todas as leis e regulamentos aplicáveis, incluindo, mas sem limitação, os regulamentos de exportação e importação.
+
+##5. Atividades Proibidas
+
+Existem algumas categorias de atividades e práticas comerciais que não são aceitas pelo Serviço Stripe (“Atividades Proibidas”). A maioria dessas categorias de Atividades Proibidas, embora não todas, são impostas pelos Regulamentos dos Arranjos de Pagamento, pela Elavon ou pelos requisitos das instituições financeiras com as quais a Stripe tem relação. Ao se registrar junto à Stripe, você confirma que você não irá usar o Serviço para aceitar pagamentos relacionados a Atividades Proibidas ou relacionados a atividades que sejam proibidas por quaisquer leis aplicáveis. Se você não tiver certeza se suas atividades constituem Atividades Proibidas, ou no caso de qualquer dúvida sobre a aplicação desses requisitos, por favor entre em contato com a Stripe. A Stripe não poderá prestar o Serviço Stripe a você se for determinado pela Stripe, a exclusivo critério da Stripe, que você está envolvido em uma Atividade Proibida ou em uma atividade ilegal.
+
+##6. Conduta Comercial
+
+Você somente irá aceitar pagamentos através da Stripe para operações entre você e seu cliente no caso de venda em boa-fé de bens ou serviços lícitos. Você não irá aliciar ou usar os Dados do Cartão de um Titular do Cartão para qualquer finalidade, salvo para o processamento do pagamento relativo a seus bens e serviços.
+Sob nenhuma circunstância, você irá solicitar ao Titular do Cartão uma cópia de seu cartão como condição para a realização da operação. Você não irá exigir que um Titular do Cartão forneça qualquer declaração renunciando ao seu direito de questionar uma operação. Qualquer declaração dessa natureza ou renúncia será considerada nula e inválida para os fins deste Contrato.
+
+Você será exclusivamente responsável por todos os custos associados ao fornecimento de seus bens e serviços aos seus clientes através do seu website e deverá observar quaisquer padrões exigidos pela Stripe ou pela Elavon para seu website.
+
+Você somente irá fornecer os bens ou serviços expressamente solicitados pelo Titular do Cartão. Você será responsável pela entrega pontual e exata da quantidade e qualidade corretas dos bens ou serviços ao endereço fornecido pelo Titular do Cartão, bem como pela determinação do preço e de eventual garantia. Você será responsável pela notificação de confirmação de pedido e de entrega dos bens ou serviços ao Titular do Cartão.
+
+Você não poderá realizar operações utilizando equipamento POS ou outros meios de captura que não tenham sido autorizados pela Stripe ou pela Elavon e o descumprimento dessa obrigação acarretará o pagamento de uma multa, sem natureza compensatória, no valor de R$50.000,00 (cinquenta mil reais).
+Você concorda em apresentar à Stripe e à Elavon, se solicitado, prova de formalização legal da operação e, no caso de questionamento de uma operação pelo Titular do Cartão, uma cópia de toda a documentação comprobatória da operação questionada.
+
+Você irá observar todas as leis, regras, regulamentos e ordens aplicáveis dos governos com jurisdição sobre seu uso do Serviço.
+
+# Cláusula C: Processamento das Operações com Cartões e Recebimento dos Seus Recursos
+
+## 1. Processamento das Operações com Cartões
+
+Você concorda em honrar todos os cartões elegíveis apresentados para pagamento pelos seus clientes em consideração aos seus bens e serviços em conformidade com os Regulamentos dos Arranjos de Pagamento, este Contrato e quaisquer diretrizes operacionais que a Stripe ou Elavon possam fornecer a você a qualquer momento. Você concorda em obter uma autorização do(s) Instituidor(es) de Arranjos de Pagamento para cada operação com cartão, conforme exigido pelos Regulamentos dos Arranjos de Pagamento, e não irá apresentar uma operação com cartão para sua liquidação se existir uma autorização negativa ou se o cartão estiver de outra forma vencido. Você reconhece que a existência de uma autorização afirmativa dos Instituidores de Arranjos de Pagamento não significa que uma operação específica com cartão não será objeto de Chargeback, Reversão ou Reivindicação (cada termo, conforme definido na Cláusula D(6) abaixo) posteriormente.
+
+Ao realizar uma operação, você concorda em observar os procedimentos, padrões e obrigações exigidos no Contrato, que a Stripe e a Elavon não poderão ser responsabilizadas pelas operações concluídas em violação a este Contrato e que a Stripe poderá recusar o processamento de operações concluídas em violação ao presente instrumento. A Stripe e a Elavon não serão responsáveis por quaisquer perdas arcadas que você sofrer, inclusive por lucros cessantes ou perda de receitas, em razão do não processamento de operações concluídas em violação a este Contrato. A Elavon e a Stripe não poderão ser responsabilizadas pela veracidade das informações fornecidas pelos Titulares dos Cartões ao realizarem as operações.
+Você não irá impor nenhuma taxa ou sobretaxa a um cliente que pretenda usar um cartão de pagamento compatível. Você irá entregar o comprovante ao cliente quando a operação de compra tiver sido concluída, o qual irá incluir todas as informações exigidas pelos Regulamentos dos Arranjos de Pagamento e pela legislação aplicável.
+
+Você irá apresentar todas as operações com cartões para seu processamento no máximo 3 (três) dias contados da data da autorização. Você irá manter os registros apropriados de todas as operações com cartões pelo período de, no mínimo, 5 (cinco) anos contados da data da operação.
+
+Você irá exibir todas as marcas dos Instituidores de Arranjos de Pagamento em conformidade com as regras e procedimentos dos Instituidores de Arranjos de Pagamento, e somente irá usar as referidas marcas para indicar sua aceitação dos seus cartões para seu pagamento.
+
+##2. Transferências e Histórico de Operações
+
+A Stripe irá alocar um crédito comercial a você e direcionar o pagamento de recursos que sejam quitados pelos Instituidores de Arranjos de Pagamento para a sua conta de liquidação especificada, nos valores efetivamente recebidos (menos as Taxas da Stripe e alguns valores adicionais definidos abaixo) para as operações com cartões submetidas ao Serviço Stripe. As transferências serão efetuadas para a conta corrente (“Conta Corrente”) especificada por você na sua conta Stripe. A Conta Corrente deverá ser uma conta mantida em um banco no Brasil, sob a sua denominação social. Você será responsável pela exatidão e precisão das informações sobre a sua Conta Corrente. Os recursos de qualquer operação não serão transferidos para sua Conta Corrente até que a operação seja considerada como tendo sido concluída. As operações serão consideradas como tendo sido concluídas quando a Stripe tiver recebido os recursos para sua liquidação dos Instituidores de Arranjos de Pagamento e quando a Stripe, a Elavon ou as instituições financeiras de processamento tiverem aceito os referidos recursos. O momento exato das transferências dos recursos para sua Conta Corrente estará condicionado ao Cronograma de Transferências, conforme definido abaixo. Não obstante o disposto acima, você reconhece que todos os créditos de recursos concedidos a você são provisórios e estão sujeitos à sua reversão, incluindo, sem limitação, no caso de ajustes por inexatidões e erros (inclusive recusas) e Chargebacks, Reversões ou Reivindicações em conformidade com este Contrato e as regras de pagamento dos Instituidores dos Arranjos de Pagamento, independentemente do chargeback da operação pela emissora do Cartão ou pelo Titular do Cartão. Portanto, você autoriza a Stripe a iniciar o débito ou crédito de reversões ou ajustes em sua Conta Corrente e a iniciar ou suspender esses débitos ou créditos em conformidade com este Contrato se necessário para a concessão ou reversão de um crédito provisório de qualquer operação.
+
+Após cada transferência de recursos de liquidação de cartões para sua Conta Corrente, a Stripe irá atualizar as informações em seu quadro no Serviço Stripe para refletir essa liquidação. As informações sobre suas operações com cartões processadas e liquidadas através dos Serviços (“Histórico de Operações”) estarão disponíveis quando você efetuar o login no website da Stripe usando as credenciais de sua conta no Serviço Stripe. A Stripe irá fornecer o Histórico de Operações de, no mínimo, um ano no website da Stripe. Exceto diversamente exigido por lei, você será exclusivamente responsável pela compilação e manutenção dos arquivos permanentes de todas as operações e dos demais dados associados ao seu Histórico de Operações e ao seu uso do Serviço.
+
+##3. Cronograma de Transferências
+
+O cronograma de transferências se refere ao período necessário para que a Stripe inicie uma transferência para a sua Conta Corrente dos recursos de liquidação decorrentes das operações com cartões processadas através do Serviço (“Cronograma de Transferências”). Assim que as informações de sua Conta Corrente tiverem sido analisadas, a Stripe irá iniciar a transferência dos recursos de liquidação (deduzidas as Taxas, Chargebacks, Reversões, Reivindicações e outros recursos devidos à Stripe a qualquer título) em conformidade com o Cronograma de Transferências, cujos termos estarão disponíveis quando você efetuar o login no website da Stripe utilizando as suas credenciais no Serviço Stripe, e em consonância com as regras/regulamentos dos Instituidores de Arranjos de Pagamento. Os recursos de liquidação serão normalmente creditados em sua Conta Corrente no prazo de 1-2 dias úteis do início da transferência pela Stripe. A Stripe não será responsável por qualquer ato praticado pela instituição na qual sua Conta Corrente seja mantida que possa resultar que os recursos não sejam total ou parcialmente creditados em sua Conta Corrente ou na indisponibilidade desses recursos em sua Conta Corrente. Você poderá entrar em contato com a Stripe para solicitar uma mudança no seu Cronograma de Transferências. Ao apresentar esse pedido, você será informado do processo e dos requisitos para a revisão do seu Cronograma de Transferências pela Stripe.
+
+A Stripe e a Elavon reservam o direito de alterar o Cronograma de Transferências ou de suspender as transferências para a sua Conta Corrente se a Stripe ou a Elavon determinarem que seja necessário em razão de litígios pendentes, Chargebacks ou restituições excessivos ou previstos ou outra atividade suspeita associada ao seu uso do Serviço ou se exigido por lei ou por ordem judicial.
+
+##4. Reconciliações e Erros
+
+Seu Histórico de Operações estará disponível quando você efetuar o login em sua conta no Serviço no website da Stripe. Exceto se diversamente exigido por lei, você será exclusivamente responsável pela reconciliação de seu Histórico de Operações com as suas operações de pagamento com cartões. Você concorda em notificar a Stripe de quaisquer discrepâncias decorrentes da referida reconciliação e verificação. A Stripe irá investigar quaisquer discrepâncias relatadas e tentará retificar quaisquer erros que você ou a Stripe venha a descobrir. Se você tiver qualquer crédito em decorrência da discrepância, a Stripe irá transferir os recursos para a sua Conta Corrente na próxima transferência programada. Se você não notificar a Stripe de um erro ou discrepância em seu Histórico de Operações no prazo de 60 (sessenta) dias de sua primeira ocorrência em seu Histórico de Operações, será considerado que houve uma renúncia a qualquer direito aos valores devidos a você em relação a qualquer erro ou discrepância no processamento de seus pagamentos com cartões.
+
+Se você apresentar ou causar o processamento errôneo de uma operação, você concorda em contatar a Stripe imediatamente. A Stripe irá investigar quaisquer erros reportados e tentará retificar quaisquer erros que tenham sido descobertos por você ou pela Stripe por meio de um crédito ou débito em sua Conta Corrente, conforme apropriado. A Stripe somente irá corrigir as operações que tenham sido processadas incorretamente se e quando você notificar a Stripe de um erro. Se você não notificar a Stripe de um erro de processamento no prazo de 30 (trinta) dias de sua primeira ocorrência em seu Histórico de Operações, será considerado que houve uma renúncia a qualquer direito aos valores devidos a você.
+
+##5. Restituições e Devoluções
+
+Ao aceitar estes Termos de Serviço, você concorda em apresentar todas e quaisquer restituições e ajustes de devoluções de seus produtos e serviços através do Serviço Stripe ao Cartão do Titular do Cartão em conformidade com os termos deste Contrato e os Regulamentos dos Arranjos de Pagamento. Os Regulamentos dos Arranjos de Pagamento exigem que você (i) mantenha uma política justa de devolução, cancelamento ou ajuste; (ii) divulgue sua política de devolução ou cancelamento aos clientes no momento da compra; (iii) não conceda restituições em dinheiro para um cliente em relação a uma venda com Cartão, salvo se exigido por lei; e (iv) não aceite dinheiro ou qualquer outro item de valor para a preparação de uma restituição de uma venda com Cartão.
+
+Todas as restituições deverão ter o valor exato em reais da operação original, incluindo quaisquer tributos, cobranças de movimentação e outras. O valor da restituição não poderá ser superior ao valor da venda original, exceção feita a um valor equivalente a quaisquer reembolsos ao cliente pelos custos postais incorridos para a devolução de um produto. As restituições processadas através do Serviço Stripe deverão ser apresentadas no prazo de 60 (sessenta) dias contados da operação original, mas, em todos os casos, no prazo de 3 (três) dias contados da aprovação da restituição ao Titular do Cartão.
+
+Para as restituições processadas, a Stripe irá deduzir o valor restituído (inclusive quaisquer Taxas aplicáveis) (i) dos recursos de liquidação devidos a você pelo processamento de outras operações com cartões; ou (ii) dos recursos em qualquer Conta Reserva (conforme definição abaixo). Se esses recursos não forem suficientes, você autoriza a Stripe a debitar de sua Conta Corrente o valor necessário para a conclusão da operação de restituição ao cartão do Titular do Cartão. Se a Stripe não puder acessar sua Conta Corrente por meio de um débito, você concorda em pagar todos os recursos devidos à Stripe mediante sua solicitação. Você será exclusivamente responsável pela aceitação e processamento de devoluções de seus produtos e serviços; a Stripe não terá nenhuma obrigação ou responsabilidade pelo processamento das referidas devoluções.
+
+##6. Chargebacks
+
+Um Chargeback (definido abaixo na Cláusula D(6)) é normalmente causado quando um cliente questiona um débito que conste de seu demonstrativo. Um Chargeback poderá resultar na reversão de uma operação, na qual o valor será cobrado de você. Você será responsável pelos Chargebacks em razão de: (i) questionamentos de um cliente; (ii) operações não autorizadas ou que tenham sido indevidamente autorizadas; (iii) operações que não observem os Regulamentos dos Arranjos de Pagamento ou os termos deste Contrato ou que sejam alegadamente ilegais ou suspeitas; ou (iv) quaisquer reversões, por qualquer motivo, por um Instituidor de Arranjo de Pagamento, pela Elavon, ou pela instituição financeira emissora do cartão do Titular do Cartão.
+
+Na ocorrência de um Chargeback, você será imediatamente responsável perante a Stripe pelo valor integral do pagamento do Chargeback, mais as respectivas Taxas, multas, despesas ou penalidades (inclusive aquelas cobradas pelos Instituidores de Arranjos de Pagamento ou pela Elavon). Você concorda que a Stripe poderá ser ressarcida através do débito desse valor em sua Conta Corrente associada à sua conta no Serviço Stripe, por meio de um débito em sua Conta Reserva, ou através da compensação com quaisquer valores devidos a você pela Stripe. Se a Stripe não puder ser ressarcida dos recursos relacionados a um Chargeback de sua responsabilidade, você irá imediatamente pagar para a Stripe o valor integral do Chargeback, mediante sua solicitação. Você concorda em pagar todos os custos e despesas, incluindo, entre outros, honorários advocatícios e outras despesas legais, incorridos pela ou em nome da Stripe para a cobrança de qualquer Chargeback que não tenha sido pago por você.
+
+Ademais, se a Stripe razoavelmente acreditar que provavelmente ocorrerá um Chargeback de qualquer operação, a Stripe poderá reter o valor equivalente ao possível Chargeback dos pagamentos de outra forma devidos a você nos termos deste Contrato até que: (a) o Chargeback seja devido em razão da reclamação de um cliente, sendo que, nesse caso, a Stripe irá reter os recursos; (b) tenha transcorrido o prazo, nos termos das leis ou regulamentos aplicáveis, durante o qual um cliente possa questionar a operação em questão; ou (c) a Stripe tenha determinado que não irá ocorrer o Chargeback da operação.
+
+##7. Contestação dos seus Chargebacks
+
+Você ou a Stripe poderão contestar um Chargeback debitado de sua Conta Corrente. A Stripe poderá assistir você, inclusive por meio de notificações e software, para a contestação de seus Chargebacks. A Stripe não assume nenhuma responsabilidade por outra função ou assistência na contestação de Chargebacks.
+
+Você concorda em prestar as informações necessárias à Stripe, de maneira pontual e às suas expensas, para a investigação ou para ajudar na solução de qualquer Chargeback. Você também autoriza a Stripe a compartilhar arquivos ou outras informações necessárias ao Titular do Cartão, à instituição financeira do Titular do Cartão, à Elavon e à sua instituição financeira para a solução de quaisquer litígios, e você irá eximir a Stripe de qualquer responsabilidade nesse sentido. Você reconhece que o não fornecimento de informações completas e exatas à Stripe de maneira pontual poderá acarretar na irreversibilidade de um débito de Chargeback.
+Se a instituição financeira emissora do Titular do Cartão ou o Instituidor do Arranjo de Pagamento não resolver um litígio a seu favor, a Stripe poderá ser ressarcida do valor do Chargeback e de quaisquer taxas associadas conforme descrito neste Contrato.
+
+A Stripe reserva o direito, através do envio de uma notificação, de cobrar de você uma taxa de mediação ou de investigação de litígios de Chargeback.
+
+##8. Chargebacks Excessivos
+
+A qualquer momento, a Stripe, a Elavon, ou os Instituidores de Arranjos de Pagamento poderão determinar que você está incorrendo em Chargebacks excessivos. Os Chargebacks excessivos poderão resultar em taxas, penalidades ou multas adicionais. Os Chargebacks excessivos poderão também resultar em novos controles e restrições ao uso do Serviço, incluindo, entre outros: (i) alterações aos termos de sua Conta Reserva; (ii) aumentos das suas Taxas aplicáveis; (iii) atrasos em seu Cronograma de Transferências; ou (iv) possível suspensão ou encerramento de sua conta na Stripe e do Serviço. Os Instituidores de Arranjos de Pagamento também poderão impor novos controles ou restrições como parte de seu próprio programa de monitoramento para estabelecimentos com Chargebacks excessivos.
+
+##9. Taxas da Stripe
+
+Você concorda em pagar as Taxas (“Taxas”) cobradas pela Stripe pela prestação dos serviços de pagamento descritos neste Contrato. As referidas taxas serão calculadas de acordo com o Anexo de Taxas, incorporado a este Contrato por referência e cujo link consta neste Contrato. A Stripe reserva o direito de rever as suas Taxas a qualquer momento, estabelecido que, em relação aos aumentos ou à introdução de novas Taxas pertinentes às operações com cartões de crédito e com cartões de débito, esse aumento ou as novas Taxas estarão condicionados ao envio a você de uma notificação com 90 (noventa) dias de antecedência. Para maior clareza, não será necessária uma notificação para as mudanças de taxas predeterminadas, se aplicável, conforme previsto no Anexo de Taxas. Você também está obrigado a pagar todos os tributos e outras cobranças impostas por qualquer autoridade governamental, sobre os serviços prestados nos termos deste Contrato.
+Você reconhece que você será responsável por quaisquer penalidades ou multas impostas à Stripe ou à Elavon ou diretamente a você por qualquer Instituidor de Arranjo de Pagamento, por uma instituição financeira ou por um órgão regulatório em decorrência de suas atividades.
+
+Você reconhece que você também será responsável por quaisquer despesas legítimas que a Stripe ou a Elavon venha a incorrer em relação a quaisquer de suas responsabilidades ou obrigações no Contrato, incluindo, sem limitação, ordens judiciais, ordens de interrupção de pagamento, cauções ou excussões.
+Pelo presente instrumento, você concorda que a Stripe poderá efetuar a cobrança de quaisquer Taxas ou outros pagamentos devidos à Stripe através de boletos bancários.
+
+##10. Direitos de Cobrança da Stripe
+
+Na extensão permitida em lei, a Stripe poderá cobrar quaisquer obrigações por você devidas à Stripe nos termos deste Contrato, através da dedução dos valores correspondentes de sua Conta Reserva ou dos recursos devidos a você em decorrência da liquidação das operações com cartões, consoante o disposto no Artigo 368 e seguintes do Código Civil Brasileiro. As Taxas irão incidir quando ocorrer o processamento da operação e serão primeiramente deduzidas dos recursos recebidos em decorrência das referidas operações. Se os valores liquidados ou a Conta Reserva não forem suficientes para a quitação de suas obrigações, a Stripe poderá cobrar ou debitar da Conta Corrente ou do cartão de crédito registrado em sua conta no Serviço Stripe quaisquer valores devidos à Stripe. O não pagamento integral dos valores devidos à Stripe, quando solicitado, consistirá uma violação relevante a este Contrato. Você será responsável pelos custos da Stripe associados à cobrança, em acréscimo ao valor devido, incluindo, sem limitação, os honorários advocatícios e despesas, custos de qualquer processo arbitral ou judicial, taxas de agências de cobrança e quaisquer juros aplicáveis.
+
+Adicionalmente, a Stripe poderá exigir uma garantia pessoal de um sócio de pessoa jurídica para os recursos devidos à Stripe nos termos deste Contrato. Se a Stripe exigir uma garantia pessoal, a Stripe irá especificamente informá-lo.
+
+##11. Reservas
+
+Os recursos mantidos em contas reservas representam os valores em dinheiro alocados pela Stripe em uma conta mantida pela Stripe, para cobrir eventuais Chargebacks, restituições ou outras obrigações de pagamento nos termos deste Contrato (uma “Conta Reserva”). A Stripe, a seu exclusivo critério, irá estabelecer os termos da Conta Reserva e irá notificá-lo desses termos, os quais poderão exigir que um determinado valor (inclusive o valor integral) dos recursos recebidos pelas operações com cartões processadas pela Stripe em seu nome seja mantido por um período ou que outros valores sejam mantidos na Conta Reserva. A Stripe, a seu exclusivo critério, poderá alterar os termos da Conta Reserva a qualquer momento e por qualquer motivo considerando o seu histórico de processamento de pagamentos ou se solicitado pela Elavon.
+
+A Stripe poderá providenciar recursos à Conta Reserva por meio de: (i) quaisquer transferências de recursos efetuadas ou devidas pelas operações com cartões apresentadas ao Serviço; (ii) valores disponíveis em sua Conta Corrente por meio de um débito na referida Conta Corrente; (iii) outras fontes de recursos associados à sua conta no Serviço Stripe; ou (iv) uma solicitação que você forneça recursos à Stripe para seu depósito na Conta Reserva. Você concorda que não terá direito a juros ou a outra remuneração associados aos recursos mantidos na Conta Reserva, que você não terá direito de orientar a referida conta, que você não terá participação legal sobre os referidos recursos ou sobre a referida conta e que você não poderá ceder qualquer participação sobre os referidos recursos ou sobre a referida conta.
+
+##12. Direito de Garantia
+
+Como condição à prestação dos Serviços Stripe ou à continuidade da prestação dos Serviços Stripe, a Stripe reserva o direito de exigir que você celebre um contrato de garantia separado, outorgando à Stripe e ao Banco Designado um direito de garantia sobre todos os recursos depositados na Conta Reserva.  Você irá razoavelmente cooperar com a Stripe na celebração, formalização e cumprimento do referido contrato de garantia, e neste ato você concorda que a Stripe terá o direito de registrar qualquer contrato de garantia perante o cartório de registro de títulos e documentos ou perante outros órgãos governamentais competentes.
+
+##13. Débito Automático
+
+Você autoriza a Stripe ou os respectivos fornecedores e representantes da Stripe a efetuarem débitos e créditos na Conta Corrente por um período indeterminado em conformidade com este Contrato. Você se compromete a praticar todos e quaisquer atos que sejam necessários para informar essa autorização ao seu banco e para a consecução dos termos e condições desta Cláusula, conforme previsto na legislação brasileira. Pelo presente instrumento, você renuncia ao direito de receber uma notificação prévia da Stripe e dos seus fornecedores e representantes com relação a todos e quaisquer débitos. Essa autorização permanecerá em vigor após a rescisão deste Contrato e até que todas as suas obrigações perante a Stripe tenham sido integralmente quitadas. No caso de qualquer mudança na Conta Corrente, essa autorização de débito automática será aplicável à nova conta e você deverá fornecer à Stripe, por escrito, as informações sobre a nova conta, conforme a Stripe considere necessário. A nova conta passará então e se tornará a “Conta Corrente” para os fins deste Contrato. Serão necessários até 10 (dez) dias úteis contados do recebimento de uma notificação escrita para que qualquer mudança na Conta Corrente esteja refletida no sistema da Stripe. No caso de qualquer mudança na Conta Corrente, você concorda que você será responsável por todos os custos incorridos pela Stripe relacionados à sua decisão de mudar a Conta Corrente. Você poderá revogar essa autorização de débito automático a qualquer momento, mas qualquer revogação outorgará à Stripe o direito de rescindir este Contrato. Você poderá obter outras informações sobre o seu direito de cancelamento da autorização de débito automático contatando a sua instituição financeira.
+
+# Cláusula D: Cessão de Direitos
+
+Se você efetuar o processamento de operações que excedam os limites estabelecidos pelos Instituidores de Arranjos de Pagamento, pelos membros do mercado de meios de pagamento, pela Elavon ou pela legislação aplicável em vigor por, no mínimo, 12 (doze) meses, você terá um relacionamento direto com a Elavon. Em conformidade com o disposto nesta Cláusula, você irá ceder alguns de seus direitos nos termos do Contrato para a Stripe, a qual irá prestar serviços relativos à captura e roteamento de operações e de cobrança dos recursos recebíveis, seguindo o respectivo procedimento definido pela Elavon.
+
+Em conformidade com o disposto nesta Cláusula, e respeitando todos os termos do Contrato, a Stripe atuará em seu nome, perante a Elavon, para:
+
+**(i)** Negociar preços, condições operacionais, níveis de serviço e outras condições necessárias para permitir a aceitação das operações de pagamento com cartões através do sistema da Elavon;
+**(ii)** Fornecer determinados dados e informações necessários para permitir a afiliação, avaliação de risco e de crédito, fornecimento de soluções de captura e manutenção de sua conta;
+**(iii)** Requerer a habilitação e desabilitação de sua conta para o processamento de operações através do sistema da Elavon;
+**(iv)** Conduzir a certificação, operação e monitoramento de soluções de captura que permitam a integração das referidas soluções com o sistema da Elavon;
+**(v)** Requerer a entrega e/ou habilitação de soluções de captura;
+**(vi)** Concentrar e rotear as operações de pagamento com cartões para o sistema da Elavon através da rede e infraestrutura, sistemas, plataformas e soluções de captura detidos ou administrados pela Stripe;
+**(vii)** Receber, abordar e responder os questionamentos e litígios de operações apresentados pela Elavon, pelas Emissoras de Cartões e/ou pelos Instituidores de Arranjos de Pagamento;
+**(viii)** Solicitar, se desejado, um adiantamento com base nos recebíveis devidos a você;
+**(ix)** Receber os valores líquidos devidos a você em decorrência das operações com cartões efetuadas através do sistema da Elavon e transferir os valores devidos a você no formato e prazo acordados;
+**(x)** Avaliar, tratar, abordar as questões e transferir os dados contidos nos relatórios de operações e de pagamentos documentando a reconciliação financeira de sua conta;
+**(xi)** Abordar e intermediar a solução de litígios e questionamentos relacionados a questões de natureza operacional, técnica, transacional e/ou de pagamento levantadas por você em relação à Elavon ou pela Elavon em relação a você;
+**(xii)** Coordenar as soluções e ajustes necessários para o suporte e atendimento de sua conta.
+
+Em consonância com o disposto nesta Cláusula e respeitando toda a legislação aplicável, você cede e transfere para a Stripe todos os direitos e responsabilidades listados acima para que a Stripe possa atuar em seu nome perante a Elavon.
+De acordo com a cessão de direitos aqui acordada, você, a Stripe e a Elavon reconhecem que todos os seus direitos e prerrogativas relacionados ao recebimento de créditos e outros passivos listados acima deverão ser exercidos exclusivamente pela Stripe, independentemente de qualquer outro termo ou condição. Você expressamente autoriza a Elavon a pagar os créditos diretamente à Stripe e a cumprir todas as diretrizes da Stripe, em conformidade com os termos dessa cessão e sem qualquer outra reivindicação perante a Elavon relacionada aos referidos pagamentos.
+
+Você expressamente autoriza a Elavon a divulgar à Stripe as informações detalhadas de todas as operações realizadas por você, inclusive as informações sobre devoluções, restituições e cancelamentos.
+
+Você expressamente reconhece que os recursos de liquidação transferidos à Stripe serão quitados a você com base nos valores líquidos das operações com cartões, com a dedução de todos e quaisquer tributos, taxas, tarifas, encargos, cancelamentos, indenizações, ajustes, deduções, abatimentos, e outros valores devidos à Elavon e/ou a terceiros, e excluídas as operações irregulares canceladas, contestadas ou sujeitas a qualquer forma de não pagamento, em conformidade com os termos deste Contrato.
+
+A Stripe será única e exclusivamente responsável pelo recebimento e transferência a você dos recursos de liquidação devidos nos termos deste Contrato, observados os prazos e no formato acordado pelas partes. Você exime a Elavon de qualquer responsabilidade pelo pagamento dos recursos de liquidação a você nos termos deste Contrato e reconhece que a Stripe será exclusivamente responsável pela liquidação dos recursos a você.
+
+Se qualquer disposição desta cláusula for considerada inválida, ilegal ou inexequível por qualquer foro competente, a referida disposição será considerada como tendo sido alterada para que se torne válida, legal e eficaz na extensão máxima permitida em lei. As demais disposições desta cláusula não serão afetadas, as quais permanecerão em pleno vigor e efeito.
+
+Você não poderá usar os recebíveis devidos a você nos termos dos Serviços Stripe em garantia a qualquer limite de crédito, empréstimo ou outra operação financeira de crédito, sem a expressa aprovação da Stripe. Você não poderá travar seu domicílio bancário, nem concordar com a trava de seu domicílio bancário pelo seu banco, nos termos do Sistema de Controle de Garantias (SCG) sem a expressa aprovação da Stripe.
+
+As informações relacionadas a qualquer alteração ao domicílio bancário deverão ser notificadas à Elavon pela própria instituição financeira ou por uma entidade independente que centralize as referidas informações. Se os membros do mercado de meios de pagamento vierem a implementar um novo modelo para a alteração de domicílios bancários, você neste ato concorda que a Elavon terá o direito de enviar todas as informações necessárias para a entidade independente responsável pela centralização das referidas informações.
+
+Se o seu banco travar seu domicílio bancário ou for implementado o bloqueio de sua conta corrente, a Elavon irá depositar os recursos em qualquer domicílio bancário informado à Elavon e/ou à Stripe pelo SCG. Você reconhece e concorda que, nos termos desta cláusula, se o seu domicílio bancário for travado, os recursos serão depositados diretamente pela Elavon, deduzindo somente as taxas da Elavon. Entretanto, você também concorda que a Stripe reserva o direito de cobrar as Taxas da Stripe sobre as referidas operações, conforme a Stripe entenda apropriado.
+As partes reconhecem que se, a qualquer momento durante o prazo de vigência deste Contrato, os Instituidores de Arranjos de Pagamento ou as agências regulatórias regulamentarem o modelo comercial objeto deste Contrato, todos os esforços serão envidados para que sejam observados os requisitos e as novas regras impostas.
+
+#Cláusula E: Rescisão e Demais Disposições Gerais
+
+##1. Prazo de Vigência
+
+O Contrato passa a vigorar na data em que você concordar com o Contrato (eletronicamente indicando sua aceitação) e permanecerá em vigor enquanto você usar o Serviço ou até a sua rescisão pela Stripe.
+
+##2. Rescisão
+
+Você poderá rescindir este Contrato com o encerramento de sua conta na Stripe a qualquer momento, seguindo as instruções no website da Stripe em seu Perfil de Conta. A Stripe poderá rescindir este Contrato e encerrar sua conta no Serviço Stripe a qualquer momento por qualquer causa, através do envio de uma notificação a você em conformidade com a Cláusula A(15) acima. A Stripe poderá suspender seu acesso ao Serviço e a quaisquer recursos cujo desembolso esteja de outra forma pendente ou rescindir este Contrato, (i) se a Stripe determinar, a seu exclusivo critério, sua inelegibilidade ao Serviço em razão do risco associado ao seu uso do Serviço Stripe, incluindo, sem limitação, risco significativo de crédito ou fraude, ou por qualquer outra razão; (ii) se você não cumprir qualquer disposição deste Contrato; (iii) se solicitado pelo Instituidor de Arranjo de Pagamento, pela Elavon ou por uma emissora de cartões; (iv) em virtude de eventos de força maior ou casos fortuitos, conforme o disposto no Artigo 393 do Código Civil brasileiro; ou (v) em quaisquer outros eventos previstos neste Contrato.
+
+Independentemente de quaisquer penalidades estabelecidas no Contrato, o descumprimento de quaisquer condições deste Contrato será considerado justa causa para a imediata rescisão do Contrato a critério da Stripe e da Elavon, e você deverá indenizar a Stripe e a Elavon por quaisquer perdas, penalidades, multas, danos ou outras medidas resultantes, incorridos pela ou impostos à Stripe e à Elavon, inclusive quaisquer multas ou penalidades impostas à Stripe ou à Elavon pelos Instituidores de Arranjos de Pagamento.
+
+##3. Efeitos da Rescisão
+
+Com a rescisão e encerramento de sua conta na Stripe, a Stripe irá imediatamente interromper seu acesso ao Serviço. Você concorda em concluir todas as operações pendentes, em imediatamente remover todos os logotipos dos Cartões, e interromper a aceitação de novas operações através do Serviço. Você não irá receber nenhuma restituição de quaisquer taxas remanescentes que tenham sido pagas pelo Serviço no caso de encerramento ou suspensão de seu acesso ao Serviço. Quaisquer recursos sob a custódia da Stripe serão transferidos a você, sujeito aos termos de seu cronograma de transferências.
+
+A rescisão não irá exonerá-lo de suas obrigações definidas neste Contrato (incluindo, sem limitação, as obrigações de indenizar) e a Stripe poderá continuar a manter quaisquer recursos que a Stripe considere necessários enquanto estiver pendente a solução de quaisquer outros termos ou obrigações definidos no presente instrumento, incluindo, mas sem limitação, Chargebacks, Taxas, restituições ou outras investigações ou processos.
+
+Com a rescisão, você concorda: (i) em imediatamente cessar seu uso do Serviço; (ii) em interromper o uso de quaisquer marcas registradas da Stripe e em imediatamente remover quaisquer referências ou logotipos da Stripe de seu website ou outras marcas; (iii) em continuar vinculado a este Contrato, conforme previsto na Cláusula D(17) abaixo; (iv) que a licença outorgada nos termos deste Contrato será rescindida; (v) que a Stripe reserva o direito (mas não a obrigação) de excluir todas as suas informações e dados de sua conta armazenados nos servidores da Stripe; e (e) que a Stripe e a Elavon não terão nenhuma responsabilidade pela sua remuneração, reembolso ou danos relacionados ao seu uso do Serviço, ou pela rescisão ou suspensão do Serviço ou pela exclusão de suas informações ou dos dados de sua conta.
+
+No prazo de 30 (trinta) dias contados do encerramento de sua conta na Stripe, você poderá solicitar, por escrito, a transferência pela Stripe dos Dados dos Cartões associados ao seu Histórico de Operações a um serviço alternativo de processamento de pagamentos com certificação Nível 1 PCI-DSS que você identifique à Stripe. A Stripe irá envidar os esforços comercialmente razoáveis para que a referida transferência seja concluída no prazo de 10 (dez) dias úteis contados do recebimento de sua solicitação escrita.
+
+##4. Sua Autorização
+
+A Stripe outorga a você uma autorização pessoal, restrita, sem exclusividade, revogável e intransferível, sem direito de cessão, de acesso eletrônico e uso do Serviço, exclusivamente para aceitar e receber pagamentos e para sacar os recursos dessa forma recebidos. O Serviço inclui o website da Stripe, quaisquer softwares, programas, documentação, ferramentas, serviços via Internet, componentes e quaisquer atualizações (inclusive para manutenção de softwares, informações de atendimento, conteúdo de ajuda, bug fixes ou versões de manutenção) que sejam fornecidos pela Stripe. Você terá o direito de efetuar o download das atualizações ao Serviço, sujeito a quaisquer termos adicionais que sejam disponibilizados à época, quando as referidas atualizações forem disponibilizadas pela Stripe.
+
+A Stripe poderá também periodicamente disponibilizar alguns logotipos, marcas ou outros identificadores da Stripe para seu uso. Nesse caso, você irá usá-los sujeito e em conformidade com as diretrizes de uso de marcas da Stripe então em vigor.
+
+##5. Propriedade
+
+O Serviço é disponibilizado e não vendido. A Stripe reserva a si todos os direitos que não tenham sido expressamente outorgados neste Contrato. O Serviço é protegido pelas leis de direitos autorais, de segredos comerciais e outras leis de propriedade intelectual ou industrial. A Stripe detém o título, direito autoral e outros Direitos de Propriedade Intelectual ao redor do mundo (conforme definição abaixo) sobre o Serviço e todas as cópias do Serviço. Este Contrato não outorga nenhum direito sobre as marcas registradas ou marcas de serviço da Stripe.
+
+Para os fins deste Contrato, “Direitos de Propriedade Intelectual” significa todos os direitos de patentes, direitos autorais, direitos sobre novas criações, direitos morais, direitos de publicidade, direitos sobre marcas registradas, apresentações comerciais e sobre marcas de serviço, fundo de comércio, segredos comerciais e outros direitos de propriedade intelectual ou industrial que possam ora existir ou doravante vir a existir e todos os seus pedidos de registro e registros, renovações e prorrogações, nos termos das leis de qualquer província, estado, país, território ou outra jurisdição.
+
+Você poderá escolher ou a Stripe poderá convidar você a apresentar seus comentários ou ideias sobre o Serviço, incluindo, sem limitação, para o aperfeiçoamento do Serviço ou dos produtos da Stripe (“Ideias”). Ao apresentar qualquer Ideia, você concorda que sua divulgação será gratuita, não solicitada e sem restrições e que não acarretará à Stripe qualquer dever fiduciário ou outra obrigação e a Stripe poderá livremente usar a Ideia sem qualquer remuneração adicional e/ou poderá divulgar a Ideia sem qualquer obrigação de confidencialidade ou de outra natureza a terceiros. Você também reconhece que, ao aceitar uma Ideia, a Stripe não renuncia nenhum direito de uso de ideias similares ou relacionadas anteriormente do conhecimento da Stripe, ou desenvolvidos por seus empregados ou obtidos de outras fontes.
+
+##6. Sua Responsabilidade
+
+Você será responsável por todas as Reversões, Chargebacks, Reivindicações, multas, taxas, penalidades e demais responsabilidades decorrentes ou relacionados à sua violação aos Regulamentos dos Arranjos de Pagamento e a este Contrato e/ou seu uso do Serviço. Você concorda em reembolsar ao seu cliente, à Stripe, à Elavon e qualquer terceiro especificado pela Stripe ou pela Elavon (cada, uma “Entidade Isenta”) todas e quaisquer responsabilidades dessa natureza. “Chargeback” significa um pedido de um cliente comprador apresentado diretamente à empresa de cartões ou à instituição financeira emissora de cartões para a invalidação de um pagamento processado. “Reivindicação” significa o questionamento de um pagamento apresentado por você ou por um cliente comprador diretamente à Stripe. “Reversão” significa a reversão pela Stripe da liquidação de recursos decorrentes de uma operação com cartão processada, por você recebidos tendo em vista (a) a invalidação da operação com cartão pela emissora de cartões; (b) um erro no envio para você dos recursos de liquidação causado (i) pela Stripe; (ii) pela Elavon, pelos agentes de processamento, fornecedores ou licenciantes da Stripe; ou (iii) por quaisquer das respectivas afiliadas, representantes, diretores e empregados de qualquer entidade listada no item (i) ou (ii) acima; (c) que o remetente do pagamento não havia autorizado a remessa do pagamento (por exemplo: o comprador usou um cartão que não pertencia ao comprador); (d) o seu recebimento do pagamento por atividades em violação a este Contrato ou quaisquer Regulamentos de Arranjos de Pagamento; ou (e) a solução de uma Reivindicação pela Stripe desfavoravelmente a você.
+
+Pelo presente instrumento, você reconhece que as operações realizadas sem a presença do cartão, em todas as situações, correrão por sua conta e risco exclusivo e que você será exclusivamente responsável por quaisquer litígios, cancelamentos, penalidades, perdas e danos pertinentes às referidas operações, mesmo se você tiver cumprido todas as suas obrigações nos termos deste Contrato.
+A Stripe, na capacidade de representante atuando em nome da Elavon, terá a autoridade decisória definitiva com relação às Reivindicações, incluindo, sem limitação, as reivindicações de restituições para itens adquiridos que sejam apresentadas à Stripe por você ou pelos seus clientes. Você estará obrigado a reembolsar à Stripe sua responsabilidade. Sua responsabilidade incluirá o preço de compra integral do item mais o custo de frete original (e, em alguns casos, você poderá não receber a devolução do item). Você não irá receber a restituição de quaisquer taxas pagas à Stripe em virtude de quaisquer operações canceladas.
+Sem limitar o disposto acima, você concorda em defender, indenizar e eximir a Stripe, a Elavon e todos os respectivos diretores, empregados e representantes da Stripe (conjuntamente, as “Entidades Isentas”) de e contra qualquer reivindicação, processo judicial, demanda, perda, passivo, dano, ação ou procedimento decorrente ou relacionado (i) à sua violação a qualquer disposição deste Contrato; (ii) ao seu uso do Serviço, incluindo, sem limitação, quaisquer Reversões, Chargebacks, Reivindicações, multas, taxas, penalidades e honorários advocatícios; (iii) à sua culpa ou dolo ou no caso de culpa ou dolo de seus diretores, empregados, representantes ou subcontratados; (iv) às obrigações de indenizar de terceiros que a Stripe ou a Elavon incorram em consequência, direta ou indireta, de suas ações ou omissões (incluindo indenização de qualquer Instituidor de Arranjo de Pagamento ou Emissora); e/ou (v) a qualquer tipo de indenização que a Stripe ou a Elavon esteja obrigada a pagar com relação às reclamações de seus consumidores. Você será exclusivamente responsável pela solução, diretamente com os seus clientes, de qualquer reclamação sobre as características, qualidade, quantidade, propriedades, origem, preço, funcionamento, garantias e defeitos de produtos por você vendidos ou de serviços por você prestados aos seus clientes. A Elavon, a Stripe, os Instituidores de Arranjos de Pagamento e a Emissora de Cartões serão isentas de qualquer responsabilidade que possa surgir nesse sentido, inclusive nos termos do Código de Defesa do Consumidor, devendo ser indenizadas na hipótese de qualquer imputação de responsabilidade ou danos.
+
+Você reconhece e concorda que a responsabilidade da Stripe e da Elavon está limitada ao cumprimento de suas obrigações descritas no Contrato. Quaisquer obrigações ou gravames decorrentes direta ou indiretamente de quaisquer processos administrativos ou judiciais resultantes de sua violação a qualquer obrigação, principal ou acessória, e promovidos por qualquer autoridade federal ou municipal, serão de sua integral responsabilidade.
+
+Você deverá reembolsar à Stripe e/ou à Elavon quaisquer danos sofridos em decorrência de multas e/ou penalidades impostas pelos Instituidores de Arranjos de Pagamento, pelas Emissoras de Cartões ou por quaisquer autoridades governamentais em razão de seu descumprimento de suas regras e requisitos. A Stripe e/ou a Elavon não serão solidária ou subsidiariamente responsáveis pelo seu descumprimento de qualquer obrigação que seja atribuível a você, sendo de sua integral responsabilidade as consequências resultantes de qualquer descumprimento de suas obrigações.
+
+Se você for responsável por quaisquer valores devidos à Stripe, a Stripe poderá imediatamente sacar esses valores de sua Conta Reserva e deduzir os valores devidos à Stripe dos recursos da referida Conta Reserva. Se você não possuir recursos suficientes Conta Reserva para satisfazer a sua responsabilidade, você estará obrigado a imediatamente adicionar outros recursos na sua Conta Reserva para satisfazer os recursos devidos à Stripe. Caso contrário, a Stripe poderá adotar as medidas de cobrança para o ressarcimento desses valores, às suas custas e expensas.
+
+##7. Declarações e Garantias
+
+Você declara e garante à Stripe e à Elavon que: (a) você está apto a efetuar seu registro e a usar o Serviço e possui pleno direito, capacidade, poder e qualificação para celebrar e cumprir este Contrato em nome da empresa que você representa; (b) todas as informações por você fornecidas à Stripe e/ou à Elavon são verdadeiras e corretas; (c) qualquer operação de vendas apresentada por você irá representar uma venda em boa-fé por você realizada; (d) quaisquer operações de venda apresentadas por você irão descrever com exatidão os bens e/ou serviços vendidos e entregues a um comprador; (e) você irá cumprir todas as suas obrigações perante todos os clientes, acerca dos quais você apresente uma operação e irá resolver qualquer litígio ou reclamação de clientes diretamente com o comprador; (f) você e todas as operações por você iniciadas irão cumprir todas as leis, regras e regulamentos da esfera federal, estadual e municipal aplicáveis às suas atividades, incluindo quaisquer leis e regulamentos tributários aplicáveis; (g) exceto no curso normal dos negócios, nenhuma operação de venda apresentada por você através do Serviço irá representar uma venda a qualquer sócio, acionista, proprietário ou detentor de sua pessoa jurídica; e (h) você não irá usar o Serviço, direta ou indiretamente, para qualquer empreendimento fraudulento ou de maneira que iria interferir com o uso do Serviço.
+
+##8. Inexistência de Garantias
+
+O Serviço e toda a documentação que o acompanha são fornecidos “no estado em que se encontram” e conforme disponíveis (“as is” e “as available”), sem qualquer garantia, expressa, tácita ou legal, incluindo, sem limitação, quaisquer garantias tácitas de título, negociabilidade, adequação para uma finalidade específica e inexistência de infração. O uso do Serviço correrá por sua própria conta e risco.
+Nenhuma orientação ou informação, verbal ou escrita, obtida a partir ou através do Serviço ou (i) da Stripe; (ii) da Elavon, das empresas de processamento, fornecedores ou licenciantes da Stripe; ou (iii) de quaisquer Entidades Isentas, irá criar qualquer garantia. Você especificamente reconhece que as Entidades Isentas não terão controle sobre os produtos ou serviços que sejam pagos através do Serviço e nem a Stripe nem quaisquer das demais Entidades Isentas poderão assegurar que seu cliente irá concluir a operação ou estará assim autorizado.
+Sem limitar o disposto acima, as Entidades Isentas não garantem (i) que as informações por elas fornecidas ou que sejam fornecidas através do Serviço são exatas, confiáveis ou corretas; (ii) que o Serviço irá atender suas necessidades; (iii) que o Serviço estará disponível em qualquer momento ou local específicos; (iv) que o Serviço funcionará de maneira ininterrupta ou segura; (v) que quaisquer defeitos ou erros serão corrigidos; ou (vi) que o Serviço estará livre de vírus ou de outros componentes prejudiciais. Qualquer download obtido através do uso do Serviço será objeto de download por sua própria conta e risco e você será exclusivamente responsável por qualquer dano material ou perda de dados resultante do referido download. As Entidades Isentas não prestam nenhuma declaração ou garantia sobre o tempo necessário para a conclusão do processamento de uma operação.
+As Entidades Isentas não garantem, endossam nem assumem qualquer responsabilidade por qualquer produto ou serviço anunciado ou oferecido por um terceiro através do Serviço ou por meio de qualquer website ou serviço objeto de um hyperlink ou descrito em qualquer banner ou em outro anúncio e nem a Stripe nem qualquer outra Entidade Isenta serão parte ou de qualquer modo irão monitorar qualquer operação entre você e os fornecedores terceirizados de produtos ou serviços.
+
+##9. Limite de Responsabilidade e Danos
+
+Em nenhuma hipótese uma Entidade Isenta (conforme definição na Cláusula 6 acima) será responsável por quaisquer lucros cessantes ou pela perda de receitas, perda de dados ou por quaisquer danos diretos ou indiretos, punitivos, incidentais, especiais, emergentes ou exemplares decorrentes, pertinentes ou relacionados a este Contrato ou aos Serviços, incluindo, sem limitação, do uso, incapacidade de uso ou indisponibilidade do Serviço. Sob nenhuma circunstância qualquer Entidade Isenta será responsável por quaisquer danos, perdas ou lesões resultantes de hacking, adulteração ou outro acesso ou uso não autorizados do Serviço ou de sua conta na Stripe ou das informações neles contidas.
+
+As Entidades Isentas não assumem nenhuma obrigação ou responsabilidade por (a) qualquer dano pessoal ou dano material, de qualquer natureza, resultante de seu acesso ou do uso do Serviço; (b) qualquer acesso ou uso não autorizado dos servidores utilizados em relação ao Serviço e/ou de todas e quaisquer informações pessoais nele armazenadas; (c) qualquer interrupção ou cessação da transmissão para ou a partir do Serviço; (d) quaisquer bugs de softwares, vírus, trojan horses, ou outro código prejudicial que possam ser transmitidos para ou através do Serviço; (e) quaisquer erros, inexatidões ou omissões em qualquer conteúdo ou informações, por qualquer perda ou dano incorrido em decorrência do uso de qualquer conteúdo ou informação, em todos os casos, postados, enviados por e-mail, armazenados, transmitidos ou de outra forma disponibilizados através do Serviço; e/ou (f) do conteúdo do usuário ou conduta difamatória, ofensiva ou ilegal de qualquer terceiro.
+Sem limitar as disposições acima desta Cláusula 9, a responsabilidade cumulativa das Entidades Isentas estará limitada aos danos diretos e, em qualquer hipótese, não excederá o valor total das taxas pagas por você para a Stripe durante o período de 3 (três) meses imediatamente anterior ao evento que tenha acarretado a reivindicação de responsabilidade.
+
+Esta Cláusula de limite de responsabilidade será aplicável independentemente da teoria legal na qual a reivindicação esteja fundamentada, incluindo, sem limitação, fundamento contratual, responsabilidade civil (inclusive negligência), responsabilidade objetiva ou qualquer outro fundamento. Os limites se aplicam mesmo se a Stripe tiver sido avisada da possibilidade dos referidos danos.
+As disposições desta Cláusula 9 serão aplicáveis na extensão máxima permitida em lei na jurisdição aplicável.
+
+##10. Litígios; Escolha de Lei; Foro e Jurisdição
+
+Você concorda que quaisquer litígios decorrentes ou relacionados a este Contrato ou ao Serviço serão dirimidos em conformidade com esta Cláusula E(10).
+Este Contrato deverá ser regido e interpretado em conformidade com as leis da República Federativa do Brasil, sem levar a efeito qualquer disposição ou regra de escolha ou conflito de leis que causaria a aplicação das leis de qualquer outra jurisdição. Portanto, as partes neste ato se submetem ao foro exclusivo do Comarca de São Paulo, Estado de São Paulo, Brasil em todos os processos judiciais decorrentes ou relacionados a este Contrato. Você e a Stripe declaram um ao outro que essa renúncia é deliberada, desejada e voluntária.
+
+Os títulos foram incluídos somente para fins de conveniência, e não serão considerados na interpretação deste Contrato. O Contrato não limita nenhum direito que a Stripe possa ter nos termos das leis de segredos comerciais, direitos autorais, patentes ou outras leis. O não exercício pela Stripe de qualquer direito ou disposição deste Contrato não constituirá renúncia a esse direito ou disposição. Nenhuma renúncia a qualquer termo deste Contrato será considerada uma renúncia adicional ou contínua ao referido termo ou a qualquer outro termo.
+
+##11. Direito de Alteração
+
+Considerando que este Contrato é celebrado por um prazo indeterminado, e que é intenção das partes que permaneça em pleno vigor e efeito por um longo período, você reconhece que a Stripe e a Elavon terão o direito de aditar ou de adicionar termos a este Contrato a qualquer momento e de alterar, excluir, descontinuar ou criar condições para qualquer característica ou aspecto do Serviço ou do software, mediante uma notificação com a antecedência que a Stripe e a Elavon, a exclusivo critério da Stripe e da Elavon, considerem razoáveis sob as circunstâncias, inclusive por meio de uma notificação no website da Stripe, no endereço http://www.stripe.com.br ou em qualquer outro website mantido ou de propriedade da Stripe para a prestação dos serviços nos termos deste Contrato, desde que você tenha sido informado do referido website. Qualquer uso do Serviço ou do software após a publicação pela Stripe de quaisquer alterações dessa natureza constituirá sua aceitação a este Contrato, com as referidas alterações.
+
+##12. Cessão
+
+Este Contrato e quaisquer direitos e licenças outorgados no presente instrumento não poderão ser transferidos ou cedidos por você sem o consentimento prévio e por escrito da Stripe, mas poderão ser cedidos pela Stripe sem o seu consentimento ou qualquer outra restrição.
+
+##13. Mudança dos Negócios
+
+Você concorda em enviar à Stripe uma notificação prévia com, no mínimo, 30 (trinta) dias de antecedência de sua intenção de alterar seus atuais tipos de produtos ou serviços, sua denominação social ou as suas formas de aceitação de pagamento. Você irá imediatamente notificar a Stripe de qualquer processo de falência voluntário ou involuntário, petição, recuperação judicial ou extrajudicial, insolvência ou ação ou processo similar iniciado por você ou contrário a você ou quaisquer de seus sócios. Você também concorda em imediatamente notificar a Stripe de qualquer alteração adversa em sua situação financeira, de qualquer liquidação planejada ou prevista ou de uma alteração significativa na natureza básica de suas atividades, qualquer transferência ou venda de 25% ou mais do valor total de seu ativo ou de qualquer alteração de controle ou de sua propriedade ou do controle ou propriedade de sua controladora. Você também irá notificar a Stripe de qualquer sentença, mandado, mandado de penhora, execução ou lançamento sobre 25% ou mais do valor total de seu ativo, no máximo três dias após tomar conhecimento.
+
+##14. Partes
+
+Este Contrato vincula você e seus respectivos herdeiros, representantes e sucessores permitidos e aprovados (inclusive por meio de incorporação e aquisição ou outras operações societárias) ou quaisquer cessionários permitidos.
+
+##15. Serviços de Terceiros e Links a Outros Websites
+
+Você poderá receber ofertas de serviços, produtos e promoções de terceiros e se você decidir usar esses serviços, você será responsável pela revisão e pela compreensão dos termos e condições associados aos referidos serviços. Você concorda que a Stripe não terá nenhuma responsabilidade pela prestação dos referidos serviços. O website da Stripe poderá conter links a websites de terceiros, para sua conveniência. A inclusão de um link a qualquer website não significa uma aprovação, endosso ou recomendação pela Stripe. Você concorda que o acesso de qualquer website correrá por sua própria conta e risco e que esse site não será regido pelos termos e condições contidos neste Contrato. A Stripe expressamente se isenta de qualquer responsabilidade por esses websites. Cumpre lembrar que quando você usar um link para acessar outro website, a partir do website da Stripe, a Política de Privacidade da Stripe não mais terá eficácia. O browsing e a interação com qualquer outro website, inclusive por meio de um link no website da Stripe, estão sujeitos às regras e políticas do próprio website.
+
+##16. Acordo Integral
+
+Este Contrato substitui todos e quaisquer os contratos, acordos, comunicações ou declarações verbais ou escritos até agora efetuados pelas partes sobre a matéria objeto do presente instrumento, e constitui o acordo integral das partes sobre a matéria objeto do presente instrumento. Na hipótese de um conflito entre este Contrato e qualquer outro contrato ou política da Stripe, este Contrato prevalecerá no que diz respeito à matéria objeto deste Contrato. Se qualquer disposição deste Contrato for (total ou parcialmente) considerada inválida ou inexequível nos termos da legislação aplicável, então a disposição será alterada e interpretada para a consecução dos objetivos da referida disposição na extensão máxima possível nos termos da lei aplicável, e as disposições remanescentes permanecerão em pleno vigor e efeito. Este Contrato foi revisto por você com o benefício de um advogado independente, conforme você tenha considerado necessário. Os direitos conferidos à Stripe neste Contrato não pretendem ser exclusivos com relação às partes ou com relação a quaisquer outros direitos e medidas que a Stripe possa ter em lei ou em equidade. Do contrário, todos e quaisquer direitos que a Stripe possa ter nos termos deste Contrato, em lei ou em equidade, são cumulativos e concorrentes e adicionais a todos os demais direitos.
+
+##17. Subsistência
+
+Em acréscimo a qualquer disposição que seja razoavelmente necessária para a consecução ou execução do objeto deste Contrato, as Cláusulas a seguir deste Contrato subsistirão e permanecerão em vigor em conformidade com os seus termos quando da rescisão deste Contrato: Cláusulas A(3) – “Autorização para Manuseio dos Recursos”, A(8) – “Segurança de Dados”, A(11) – “Privacidade de Terceiros”, C(4) – “Reconciliações e Erros”, C(5) - “Restituições e Devoluções”, C(6) - “Chargebacks”, C(9) – “Taxas da Stripe”, C(10) – “Direitos de Cobrança da Stripe”, C(11) – “Reservas”, C(13) – “Débito Automático”, D(3) – “Efeitos da Rescisão”, D(5) – “Propriedade”, D(6) – “Sua Responsabilidade”, D(8) – “Inexistência de Garantias”, D(9) – “Limite de Responsabilidade e Danos”, D(10) – “Litígios; Escolha de Lei; Foro e Jurisdição”, D(16) – “Acordo Integral” e D(17) – “Subsistência”.
+
+#Cláusula F: Instalação de Aplicativo em sua Conta Stripe
+
+Estes termos somente serão aplicáveis se você tiver autorizado outros aplicativos para a conexão à sua conta Stripe.
+
+Ao autorizar o link por outro aplicativo à sua conta Stripe, você concorda em vincular-se a estes Termos de Conexão de Usuário da Stripe bem como aos Termos de Serviço da Stripe. Você especificamente concorda com o que segue:
+
+##1. Permissões dos Aplicativos
+
+Ao autorizar o link de um aplicativo à sua conta Stripe (um “Aplicativo de um Parceiro”) você autoriza a Stripe a permitir que um Aplicativo de um Parceiro (a) tenha acesso aos dados de sua conta Stripe; (b) crie cobranças e clientes em sua conta Stripe; e (c) deduza os valores (por exemplo, taxas e cobranças) do valor que seria de outra forma devido a você em decorrência das operações realizadas no Aplicativo de um Parceiro (“Taxas de um Parceiro”). Quaisquer Taxas de um Parceiro serão adicionais às próprias taxas e cobranças da Stripe.
+
+##2. Duração
+
+Assim que você tiver autorizado um Aplicativo de um Parceiro, você continuará a ter acesso à sua conta Stripe e estará autorizado conforme descrito nestes Termos de Conexão de Usuário da Stripe até que você tenha especificamente revogado a sua autorização através de uma alteração nos ajustes no quadro de sua conta Stripe.
+
+#Cláusula G: Disposições Gerais
+
+Você expressamente reconhece e concorda que qualquer penhor, cessão ou transferência de propriedade, negociações envolvendo qualquer instrumento de crédito ou oferta em garantia para empréstimos de créditos decorrentes das operações serão ineficazes, nulos e inválidos, e não produzirão nenhum resultado perante a Elavon, exceto no caso da prévia concordância por escrito da Elavon, outorgada diretamente a você ou a uma instituição financeira representante. A Elavon poderá, nesse caso, cobrar as taxas em vigor pelo serviço.
+
+Você concorda que os arquivos magnéticos, digitais ou telefônicos das negociações envolvendo qualquer produto, qualquer negociação específica ou qualquer termo, cláusula ou condição do Contrato poderão ser usados como prova, inclusive em juízo, por uma das Partes.
+
+As partes não serão responsabilizadas por quaisquer falhas, interrupções ou atrasos no cumprimento de suas obrigações em razão de circunstâncias imprevisíveis ou eventos de força maior, que constituam excludentes de responsabilidade consoante o disposto no Artigo 393 do Código Civil brasileiro, inclusive, entre outros, atos do governo, restrições impostas pelo governo, interrupção de serviços nos termos de uma licença, autorização, permissão ou concessão (fornecimento de eletricidade e serviços telefônicos, desempenho das operadoras de serviços de telecomunicações conectadas à sua rede, entre outros), desastres naturais, greves, distúrbios civis e outros eventos similares.
+
+Cada parte arcará suas respectivas obrigações fiscais e trabalhistas em conformidade com a legislação aplicável.
+
+As partes, em seu nome e em nome de seus sucessores a qualquer título, concordam que todos os termos, condições, mandatos e compromissos assumidos no presente instrumento são irrevogáveis.
+
+Os direitos e obrigações aqui assumidos não poderão ser cedidos e/ou transferidos a terceiros, total ou parcialmente, sem o consentimento prévio e por escrito da outra Parte.
+
+A nulidade ou invalidade de qualquer disposição do Contrato não implicará a nulidade ou invalidade das demais disposições, as quais deverão permanecer válidas, produzindo plenamente seus efeitos legais.
+
+Qualquer tolerância, liberalidade, execução parcial ou concessão entre as partes serão sempre consideradas mera liberalidades, e não implicarão em renúncia ou perda de qualquer direito, faculdade, privilégio, prerrogativa ou poderes outorgados (inclusive mandato) nem implicarão em novação, aditamento, leniência, alteração ou redução de direitos e obrigações delas decorrentes.
+
+</article>

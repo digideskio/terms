@@ -15,5 +15,5 @@ IFTTT Recipe: <a href="https://ifttt.com/view_embed_recipe/269879-email-me-when-
 * [connected_account_agreement.md](https://stripe.com/connect/account-terms)
 * eu_policy.md - privacy policy for EU countries (ex: [UK](https://stripe.com/gb/privacy))
 * eu_terms.md - separate pages for each EU country with the same terms (ex: [UK](https://stripe.com/gb/terms))
-* [marks_agreement.md](https://stripe.com/terms/marks)
+* [marks_agreement.md](https://stripe.com/legal/marks)
 * [privacy.html](https://stripe.com/us/privacy)

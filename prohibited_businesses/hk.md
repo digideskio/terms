@@ -1,9 +1,11 @@
+<section id="details">
+
 <header id="prohibited_businesses">
 # Prohibited Businesses — Hong Kong
-Last Updated: April 26, 2016. Previous versions and diffs are <a href="https://github.com/stripe/terms">available here</a>.
+Last Updated: April 26, 2016.
 </header>
 
-<section id="prohibited_list">
+<article id="prohibited_list">
 <p>The following categories of businesses and business practices are prohibited from using the Stripe Service (“Prohibited Businesses”). Most Prohibited Business categories are imposed by Card Network rules or the requirements of our banking providers or processors. The types of businesses listed in the right column are representative, but not exhaustive. If you are uncertain as to whether your business is a Prohibited Business, or have questions about how these requirements apply to you, please [contact us](mailto:support@stripe.com).</p>
 
 <p>By registering for Stripe, you are confirming that you will not use the Service to accept payments in connection with the following businesses, business activities or business practices.
@@ -12,7 +14,7 @@ Last Updated: April 26, 2016. Previous versions and diffs are <a href="https://g
 <h2>Financial and professional services</h2>
 <table>
   <tr>
-    <td style="width:30%;">
+    <td>
       Investment &amp; credit services
     </td>
     <td>
@@ -42,11 +44,11 @@ Last Updated: April 26, 2016. Previous versions and diffs are <a href="https://g
 <h2>IP Infringement, regulated or illegal products and services</h2>
 <table>
   <tr>
-    <td style="width:30%;">
+    <td>
       Intellectual property or proprietary rights infringement
     </td>
     <td>
-      Sales, distribution, or access to counterfeit music, movies, software, or other licensed materials without the appropriate authorization from the rights holder; any product or service that directly infringes or facilitates infringement upon the trademark, patent, copyright, trade secrets, or proprietary or privacy rights of any third party; use of Stripe intellectual property without express consent from Stripe; use of the Stripe name or logo including use of Stripe trade or service marks inconsistent with the <a href="/marks/terms">Stripe Marks Usage Agreement</a>, or in a manner that otherwise harms Stripe or the Stripe brand; any action that implies an untrue endorsement by or affiliation with Stripe
+      Sales, distribution, or access to counterfeit music, movies, software, or other licensed materials without the appropriate authorization from the rights holder; any product or service that directly infringes or facilitates infringement upon the trademark, patent, copyright, trade secrets, or proprietary or privacy rights of any third party; use of Stripe intellectual property without express consent from Stripe; use of the Stripe name or logo including use of Stripe trade or service marks inconsistent with the <a href="/marks/legal">Stripe Marks Usage Agreement</a>, or in a manner that otherwise harms Stripe or the Stripe brand; any action that implies an untrue endorsement by or affiliation with Stripe
     </td>
   </tr>
   <tr>
@@ -95,7 +97,7 @@ Last Updated: April 26, 2016. Previous versions and diffs are <a href="https://g
 <h2>Unfair, predatory, or deceptive practices</h2>
 <table>
   <tr>
-    <td style="width:30%;">
+    <td>
       Get rich quick schemes
     </td>
     <td>
@@ -123,7 +125,7 @@ Last Updated: April 26, 2016. Previous versions and diffs are <a href="https://g
 <h2>Products or services that are otherwise prohibited by our financial partners</h2>
 <table>
   <tr>
-    <td style="width:30%;">
+    <td>
       Aggregation
     </td>
     <td>
@@ -196,7 +198,7 @@ Last Updated: April 26, 2016. Previous versions and diffs are <a href="https://g
   </tr>
   <tr>
     <td>
-      Use of Stripe in a manner inconsistent with its intended use or as expressly prohibited in the Terms of Service
+      Use of Stripe in a manner inconsistent with its intended use or as expressly prohibited in the Services Agreement
     </td>
     <td>
       Use of Stripe principally as a virtual terminal (e.g., submitting card transactions by manually inputting card information); processing where there is no bona fide good or service sold, or donation accepted; card testing; evasion of card network chargeback monitoring programs; sharing cardholder information with another merchant for payment cross-sell product or service
@@ -221,4 +223,5 @@ Last Updated: April 26, 2016. Previous versions and diffs are <a href="https://g
 
 <p>If you have any questions about supported businesses, don’t hesitate to <a href="/contact">get in touch</a>.</p>
 
+</article>
 </section>

@@ -1,9 +1,10 @@
+<section id="details">
 <header>
 <h1>Aviso de Privacidad — México</h1>
-<p>Última Actualización: el 24 de abril de 2015. Las versiones anteriores y sus modificaciones están [disponibles aquí](https://github.com/stripe/terms).</p>
+<p>Última Actualización: el 24 de abril de 2015</p>
 </header>
-<section>
-<h2>¡Bienvenido a Stripe!</h2>
+<article>
+<h1>¡Bienvenido a Stripe!</h1>
 <p>
 En Stripe (“nosotros”, “nuestros”, o “nuestras”) hemos desarrollado este servicio para facilitar la aceptación de pagos en línea para que usted pueda enfocarse en su propio producto o servicio. Entendemos que la privacidad es importante tanto para nuestros visitantes en línea como para nuestros usuarios registrados. Respetamos su privacidad y tomaremos medidas razonables para proteger su información.
 </p>
@@ -21,9 +22,9 @@ Esta Política de Privacidad le ayudará a entender lo siguiente:
 <li><a href='#8'>Contáctenos</a></li>
 </ol>
 <p>
-Por favor también revise, en su caso, su convenio de <a href="https://stripe.com/terms">Términos del Servicio</a> con Stripe, mismo que prevalecerá en caso de cualquier incongruencia con esta Política de Privacidad.
+Por favor también revise, en su caso, su convenio de <a href="<%= Opus::DaemonCommon.stripe_link('stripe.com', '/legal')%>">Términos del Servicio</a> con Stripe, mismo que prevalecerá en caso de cualquier incongruencia con esta Política de Privacidad.
 </p>
-<h2 id="1">1. ¿Cuál es el objeto de esta Política de Privacidad?</h2>
+<h1 id="1">1. ¿Cuál es el objeto de esta Política de Privacidad?</h1>
 <p>
 Stripe Payment México, S. de R.L. de C.V. (“Stripe”) es la entidad encargada de la protección de sus datos personales. Esta Política aplica a la sitio web stripe.com, incluyendo toda subpágina y cualquier página subsiguiente (colectivamente, el “Sitio Web”), y también aplica a todo programa y servicio que ofrecemos, incluyendo el formato de Stripe Checkout (Mostrador Stripe) del cual se podrá disponer en una página de terceros, y otros servicios que ofrecemos a través nuestro Sitio Web cuando se inscriba en una cuenta de Stripe (colectivamente, los “Servicios”).
 </p>
@@ -33,15 +34,15 @@ Esta Política no es aplicable a cualquier sitio web, producto o servicio alguno
 <p>
 Al utilizar nuestro Sitio Web o los Servicios, acepta las prácticas descritas en esta Política. Si no está de acuerdo con esta Política, elimine todas las cookies de la caché de su navegador después de visitar nuestro Sitio Web y no visite ni utilice nuestro Sitio Web o los Servicios. El uso continuado de nuestro Sitio o los Servicios, implica su aceptación de esta Política.
 </p>
-<h2 id="2">2. Recolección y uso de información</h2>
+<h1 id="2">2. Recolección y uso de información</h1>
 <p>
 En términos generales, recabamos información de tres formas: (1) cuando Usted nos la proporciona directamente, (2) al obtener información de verificación sobre Usted o su empresa a través de terceros confiables (por ejemplo, bancos y burós de crédito), y (3) pasivamente a través de tecnologías como las “cookies”. Los tipos de información que recolectamos y nuestro uso de dicha información variará en función de que sea Visitante del Sitio, Usuario de Prueba, Usuario de Checkout, (Mostrador) o Usuario en Vivo, según se describen a continuación.
 </p>
-<h3>Información Personal</h3>
+<h2>Información Personal</h2>
 <p>
 El término “Información Personal”, según se utiliza en esta Política, se refiere a cualquier información que pueda ser utilizada para identificar a una persona específica o cualquier información anónima (por ejemplo una dirección IP) ligada a una persona específica. La información personal no incluye información agregada o anonimizada de manera que ya no se pueda asociar razonablemente a persona específica alguna.
 </p>
-<h3>Cookies y bitácoras de servidores web</h3>
+<h2>Cookies y bitácoras de servidores web</h2>
 <p>
 De modo similar a muchos sitios web comerciales, utilizamos “cookies” y otras tecnologías para recabar información no personalmente identificable de nuestro Sitio y de otros sitios que utilizan Stripe Checkout (Mostrador Stripe). Las “Cookies” son un elemento de los navegadores electrónicos que permiten a los servidores web reconocer el equipo utilizado para acceder a un sitio web. Las Cookies guardan información ingresada a través de su navegador para facilitar las actividades en sitios relacionados y permitir una experiencia en línea más eficiente y personalizada.
 </p>
@@ -51,19 +52,19 @@ La información recabada a través de cookies y los archivos de bitácora del se
 <p>
 Para entender y mejorar la eficacia de nuestra publicidad, también podremos utilizar web beacons, cookies, y otras tecnologías para identificar el hecho de que usted ha visitado nuestro Sitio o visto nuestra publicidad, y podremos proporcionar esa información a una o varias redes de publicidad de terceros. La información que proporcionamos puede incluir la hora y fecha de visita a nuestro sitio web, las páginas visualizadas, los vínculos seguidos y otra información no personalmente identificable. Dichas redes de publicidad podrán reconocer la web beacons o cookie asociada a su visita a nuestro Sitio Web cuando visite otros sitios en que publican publicidad y tomar decisiones sobre los anuncios que Usted visualice con base en las mismas. Podemos optar por trabajar con Google AdWords, Doubleclick, AdRoll u otras redes publicitarias. Cada una de estas empresas cuenta con su propia política de privacidad, misma que sugerimos que Usted. revise. Para mayor información sobre la publicidad y rastreo en línea, visite la <a href="http://www.networkadvertising.org/">Iniciativa de Publicidad en la Red</a>. Este sitio permite a los consumidores negar su consentimiento a la publicidad conductual entregada por las empresas miembro. Encontrará información adicional sobre dicho programa <a href="http://www.networkadvertising.org/choices/">aquí</a>.
 </p>
-<h3>Visitantes del Sitio</h3>
+<h2>Visitantes del Sitio</h2>
 <p>
 Para simplemente navegar por nuestro Sitio Web, Usted no está obligado a dar Información Personal alguna. Sin embargo, podremos recabar información no personalmente identificable, como se describe anteriormente, únicamente para fines de monitorear y mejorar nuestro Sitio Web y Servicios. No compartiremos esta información con terceros salvo cuando sea necesario para el uso de nuestro Sitio Web y Servicios, ni la utilizaremos para dirigir publicidad alguna hacia Usted.
 </p>
-<h3>Usuarios de Checkout (Mostrador)</h3>
+<h2>Usuarios de Checkout (Mostrador)</h2>
 <p>
 Cuando utilice Stripe Checkout en la página de un comerciante para guardar sus credenciales de pago, recabaremos y almacenaremos información sobre su tarjeta de pago, su dirección de correo electrónico, su número móvil, y su domicilio de facturación y envío. Utilizaremos esta información para completar compras que Usted opte por realizar en otros sitios o aplicaciones que también utilicen Stripe Checkout, pero únicamente con su autorización. Si su compra realizada con Stripe involucra bienes físicos, tendremos que recabar su domicilio de entrega y revelarlo al comerciante con quien realice su compra. También podremos compartir su información de contacto, pero no la información de su tarjeta, con comerciantes como parte de sus compras. No compartiremos esta información con otros terceros salvo cuando sea necesario para el uso de nuestro Sitio Web y Servicios. Usted debe leer detenidamente las políticas de privacidad  de cada comerciante para entender mejor cómo utiliza su información.
 </p>
-<h3>Usuarios de Prueba</h3>
+<h2>Usuarios de Prueba</h2>
 <p>
 Cuando visite Stripe, Usted tendrá la capacidad de realizar un número limitado de operaciones de “prueba” y experimentar los Servicios en funcionamiento, sin inscribirse en una cuenta de Stripe. Para monitorear estas operaciones, recabamos su dirección IP, información sobre su equipo, y otra información estándar de la bitácora web. También recolectamos su Información Personal e información de cualquier tarjeta de crédito que proporcione para realizar las operaciones de prueba. No utilizaremos esta información para dirigir cualquier anuncio hacia Usted. Compartiremos y revelaremos la Información Personal e información de su tarjeta de crédito únicamente en la forma descrita en la <a href='#3'>Sección 3 (“Transferencia y revelación de información”)</a> siguiente.
 </p>
-<h3>Usuarios en Vivo</h3>
+<h2>Usuarios en Vivo</h2>
 <p>
 Para acceso total a nuestro Sitio Web y Servicios, deberá inscribirse para contar con una cuenta de Stripe. Al inscribirse para una cuenta, recabaremos la siguiente Información Personal cuando Usted nos la proporcione de manera voluntaria:
 </p>
@@ -90,7 +91,7 @@ Usted otorga su consentimiento expreso para que Stripe obtenga un informe credit
 <p>
 Previo su consentimiento, también podremos recabar Información Personal adicional de otras formas, incluyendo el correo electrónico, encuestas, y otras formas de comunicación. Una vez que comience a utilizar el Servicio a través de su cuenta de Stripe, conservaremos registros de sus operaciones y recolectaremos información sobre sus demás actividades relacionadas con nuestras Servicios. Compartiremos y revelaremos la Información Personal antes mencionada como se describe en la <a href='#3'>Sección 3 (“Transferencia y revelación de información”)</a> siguiente.
 </p>
-<h2 id="3">3. Transferencia y revelación de información</h2>
+<h1 id="3">3. Transferencia y revelación de información</h1>
 <p>
 Stripe no vende o renta su Información Personal a empresas de mercadotecnia u otros terceros.
 </p>
@@ -107,7 +108,7 @@ Divulgaremos su Información Personal en respuesta a una solicitud únicamente s
 <p>
 Por otra parte, en el caso de una fusión, adquisición, reorganización, concurso mercantil u otro acontecimiento análogo, cualquier información en nuestra posesión podrá ser transferida a nuestro causahabiente o cesionario.
 </p>
-<h2 id="4">4. Elección y conservación de datos</h2>
+<h1 id="4">4. Elección y conservación de datos</h1>
 <p>
 Estamos obligados a recolectar cierta Información Personal para confirmar su identidad y cumplir con nuestras obligaciones. Si opta por no proporcionar Información Personal en campos optativos, podrá limitar su capacidad de utilizar nuestros Servicios. Le ofrecemos opciones para limitar la forma en que utilizamos o revelamos sus datos personales. Puede actualizar su información de cuenta accediendo a nuestro Sitio Web con su cuenta de Stripe.
 </p>
@@ -126,23 +127,24 @@ Si desea cancelar el consentimiento a tener cookies habilitadas en su navegador 
 <p>
 Stripe tiene una serie de obligaciones de conservar los datos que Usted nos proporciona, tanto para garantizar que las operaciones sean procesadas, compensadas, pagadas, devueltas o revertidas adecuadamente, como para evitar el fraude y cumplir con las normas aplicables a Stripe y a nuestros proveedores de servicios bancarios y procesadores de tarjeta de crédito. En virtud de lo anterior, aunque Usted cancele su cuenta de Stripe, conservaremos cierta información según sea necesario para cumplir con nuestras obligaciones.
 </p>
-<h2 id="5">5. Protección de la información</h2>
+<h1 id="5">5. Protección de la información</h1>
 <p>
 Aunque no se puede garantizar la seguridad de la transmisión de datos al 100%, tomamos medidas razonables para proteger toda Información Personal. Stripe mantiene estrictos procedimientos administrativos, técnicos y físicos para proteger la información almacenada en nuestros servidores ubicados en los Estados Unidos de América. El acceso a la información está limitado (por credenciales de usuario/contraseña y sistemas de software) a aquellos empleados que la requieran para el cumplimiento de sus funciones laborales. Utilizamos la tecnología de cifrado de Secure Socket Layer (SSL) de acuerdo con las normas industriales, para salvaguardar el proceso de registro de cuenta e información de inscripción. Otras salvaguardas de seguridad incluyen sin limitación el cifrado de datos, protección de firewall y controles físicos de acceso al edificio y a los archivos.
 </p>
-<h2 id="6">6. Modificaciones y avisos</h2>
+<h1 id="6">6. Modificaciones y avisos</h1>
 <p>
 Nos reservamos el derecho, a nuestra discreción exclusiva y absoluta, de modificar esta Política de tiempo en tiempo. Por favor revise esta Política periódicamente para verificar cualquier actualización. En caso de cualquier modificación importante y/o de aplicación retroactiva, podremos dar un aviso adicional y/o brindarle la oportunidad de otorgar su consentimiento expreso, según aplique bajo las circunstancias.
 </p>
 <p>
 Stripe le proporcionará revelaciones y avisos relativos a esta Política mediante su publicación en nuestro Sitio, su envío a la dirección de correo electrónico señalada en su cuenta de Stripe, y/o su envío por correo al domicilio físico señalado en su Cuenta de Stripe. Usted está de acuerdo en que las revelaciones y avisos electrónicos tendrán la misma validez y efecto como si le hubiéramos proporcionado una copia impresa. Se considerará que Usted ha recibido dichas revelaciones y avisos relativos a esta Política dentro de las 24 horas siguientes al momento de su publicación en nuestro Sitio Web o su envío por correo electrónico (a menos que se nos notifique que el correo electrónico no fue entregado).
 </p>
-<h2 id="7">7. Marco Puerto Seguro</h2>
+<h1 id="7">7. Marco Puerto Seguro</h1>
 <p>
 Stripe cumple con el Marco de Puerto Seguro  (Safe Harbor EUA-UE) así como el Marco de Puerto Seguro EUA-Suiza, establecidos por el Departamento de Comercio de los Estados Unidos de América para la recolección, uso y conservación de información personal de países miembro de la Unión Europea y Suiza. Stripe ha certificado que cumple con los Principios de Privacidad de Puerto Seguro en materia de avisos, elección, transferencia ulterior, seguridad, integridad de datos, acceso y aplicación de la norma. Para mayor información sobre el programa Puerto Seguro, y para visualizar la certificación de Stripe, visite <a href="http://www.export.gov/safeharbor/">export.gov</a>. En caso de duda sobre la certificación Puerto Seguro de Stripe, favor de En caso de duda sobre la certificación Puerto Seguro de Stripe, favor de <a href="mailto:safeharbor@stripe.com">contactarnos</a>.
 </p>
-<h2 id="8">8. Contáctenos</h2>
+<h1 id="8">8. Contáctenos</h1>
 <p>
 En caso de cualquier duda o sugerencia sobre esta Política de Privacidad o alguna de nuestras prácticas en materia de privacidad, favor de <a href="mailto:privacy@stripe.com">contactarnos</a>.
 </p>
+</article>
 </section>

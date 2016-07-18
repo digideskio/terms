@@ -136,7 +136,7 @@ El Servicio es controlado y operado por Stripe Mexico desde sus instalaciones en
 
 ### 5. Negocios Prohibidos
 
-Hay ciertas categorías de negocios y prácticas de negocios para los cuales el Servicio de Stripe Mexico no puede ser utilizado (“Negocios Prohibidos”). La mayoría, aunque no todos de los Negocios Prohibidos, son impuestos por las reglas de las Redes de Tarjetas, o por los requisitos de nuestros proveedores bancarios o procesadores. Nosotros mantenemos una lista aquí: [Negocios Prohibidos](https://stripe.com/prohibited_businesses). Al registrarse con Stripe Mexico, usted confirma que no utilizará el Servicio para aceptar pagos relacionados con cualquiera de los Negocios Prohibidos. Si no está seguro si su negocio es un Negocio Prohibido o tiene preguntas acerca de cómo estos requisitos le aplican, por favor póngase en contacto con nosotros.
+Hay ciertas categorías de negocios y prácticas de negocios para los cuales el Servicio de Stripe Mexico no puede ser utilizado (“Negocios Prohibidos”). La mayoría, aunque no todos de los Negocios Prohibidos, son impuestos por las reglas de las Redes de Tarjetas, o por los requisitos de nuestros proveedores bancarios o procesadores. Nosotros mantenemos una lista aquí: [Negocios Prohibidos](https://stripe.com/prohibited-businesses). Al registrarse con Stripe Mexico, usted confirma que no utilizará el Servicio para aceptar pagos relacionados con cualquiera de los Negocios Prohibidos. Si no está seguro si su negocio es un Negocio Prohibido o tiene preguntas acerca de cómo estos requisitos le aplican, por favor póngase en contacto con nosotros.
 
 ### 6. Conducta de Negocios
 
